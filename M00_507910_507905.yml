@@ -1,0 +1,818 @@
+Version: 4
+IsBigEndian: False
+SupportPaths: False
+HasReferenceNodes: False
+root:
+  - !h Alignment: !ul 2
+    !h TypeName: !u 31855432
+    !h Members:
+      - !h Length1: !ul 128
+        !h Name: ValueArray
+        !h Alignment: !ul 2
+        !h TypeName: u16
+        !h Offset: !ul 0
+        !h Size: !ul 2
+    !h Size: !ul 256
+  - !h Alignment: !ul 4
+    !h TypeName: ::Game::SaveRoomFloorWall
+    !h Members:
+      - !h Length1: !ul 1
+        !h Name: AccentWallDirection
+        !h Alignment: !ul 1
+        !h TypeName: s8
+        !h Offset: !ul 30
+        !h Size: !ul 1
+      - !h Length1: !ul 1
+        !h Name: InfoBit
+        !h Alignment: !ul 1
+        !h TypeName: !u 1153857660
+        !h Offset: !ul 31
+        !h Size: !ul 1
+      - !h Length1: !ul 1
+        !h Name: WallItem
+        !h Alignment: !ul 4
+        !h TypeName: ::Game::SaveItemName
+        !h Offset: !ul 8
+        !h Size: !ul 8
+      - !h Length1: !ul 1
+        !h Name: AccentWallMyDesignID
+        !h Alignment: !ul 2
+        !h TypeName: ::Game::SaveMyDesignId
+        !h Offset: !ul 24
+        !h Size: !ul 2
+      - !h Length1: !ul 1
+        !h Name: FloorItem
+        !h Alignment: !ul 4
+        !h TypeName: ::Game::SaveItemName
+        !h Offset: !ul 16
+        !h Size: !ul 8
+      - !h Length1: !ul 1
+        !h Name: AccentWallItem
+        !h Alignment: !ul 4
+        !h TypeName: ::Game::SaveItemName
+        !h Offset: !ul 0
+        !h Size: !ul 8
+      - !h Length1: !ul 1
+        !h Name: !u 3098527542
+        !h Alignment: !ul 1
+        !h TypeName: !u 1153857660
+        !h Offset: !ul 32
+        !h Size: !ul 1
+      - !h Length1: !ul 1
+        !h Name: WallMyDesignID
+        !h Alignment: !ul 2
+        !h TypeName: ::Game::SaveMyDesignId
+        !h Offset: !ul 26
+        !h Size: !ul 2
+      - !h Length1: !ul 1
+        !h Name: FloorMyDesignID
+        !h Alignment: !ul 2
+        !h TypeName: ::Game::SaveMyDesignId
+        !h Offset: !ul 28
+        !h Size: !ul 2
+    !h Size: !ul 36
+  - !h Alignment: !ul 1
+    !h TypeName: ::Game::SaveMyDesignPalette
+    !h Members:
+      - !h Length1: !ul 45
+        !h Name: Colors
+        !h Alignment: !ul 1
+        !h TypeName: u8
+        !h Offset: !ul 0
+        !h Size: !ul 1
+    !h Size: !ul 45
+  - !h Alignment: !ul 2
+    !h TypeName: ::Game::SaveMyDesignId
+    !h Members:
+      - !h Length1: !ul 1
+        !h Name: MyDesignId
+        !h Alignment: !ul 2
+        !h TypeName: u16
+        !h Offset: !ul 0
+        !h Size: !ul 2
+    !h Size: !ul 2
+  - !h Alignment: !ul 4
+    !h TypeName: ::Game::SavePlayerBaseId
+    !h Members:
+      - !h Length1: !ul 1
+        !h Name: Name
+        !h Alignment: !ul 2
+        !h TypeName: ::Game::SaveWordPlayerName
+        !h Offset: !ul 4
+        !h Size: !ul 20
+      - !h Length1: !ul 1
+        !h Name: Gender
+        !h Alignment: !ul 4
+        !h TypeName: !u 2298017200
+        !h Offset: !ul 24
+        !h Size: !ul 4
+      - !h Length1: !ul 1
+        !h Name: Id
+        !h Alignment: !ul 4
+        !h TypeName: u32
+        !h Offset: !ul 0
+        !h Size: !ul 4
+    !h Size: !ul 28
+  - !h Alignment: !ul 8
+    !h TypeName: ::Game::SaveMyDesignHeader
+    !h Members:
+      - !h Length1: !ul 1
+        !h Name: HomePlace
+        !h Alignment: !ul 2
+        !h TypeName: u16
+        !h Offset: !ul 106
+        !h Size: !ul 2
+      - !h Length1: !ul 1
+        !h Name: Title
+        !h Alignment: !ul 2
+        !h TypeName: !u 548907015
+        !h Offset: !ul 8
+        !h Size: !ul 40
+      - !h Length1: !ul 1
+        !h Name: ColorSet
+        !h Alignment: !ul 1
+        !h TypeName: u8
+        !h Offset: !ul 105
+        !h Size: !ul 1
+      - !h Length1: !ul 1
+        !h Name: NetMyDesignID
+        !h Alignment: !ul 8
+        !h TypeName: Game::Net::MyDesignID
+        !h Offset: !ul 0
+        !h Size: !ul 8
+      - !h Length1: !ul 1
+        !h Name: Flags
+        !h Alignment: !ul 1
+        !h TypeName: u8
+        !h Offset: !ul 104
+        !h Size: !ul 1
+      - !h Length1: !ul 1
+        !h Name: Author
+        !h Alignment: !ul 4
+        !h TypeName: ::Game::SavePlayerId
+        !h Offset: !ul 48
+        !h Size: !ul 56
+    !h Size: !ul 112
+  - !h Alignment: !ul 4
+    !h TypeName: ::Game::SaveItemFreeParam
+    !h Members:
+      - !h Length1: !ul 1
+        !h Name: Type
+        !h Alignment: !ul 4
+        !h TypeName: !u 795349106
+        !h Offset: !ul 0
+        !h Size: !ul 4
+    !h Size: !ul 4
+  - !h Alignment: !ul 2
+    !h TypeName: !u 548907015
+    !h Members:
+      - !h Length1: !ul 20
+        !h Name: Buffer
+        !h Alignment: !ul 2
+        !h TypeName: char16
+        !h Offset: !ul 0
+        !h Size: !ul 2
+    !h Size: !ul 40
+  - !h Alignment: !ul 2
+    !h TypeName: ::Game::SaveWordTownName
+    !h Members:
+      - !h Length1: !ul 1
+        !h Name: TownName
+        !h Alignment: !ul 2
+        !h TypeName: !u 2326029664
+        !h Offset: !ul 0
+        !h Size: !ul 20
+    !h Size: !ul 20
+  - !h Alignment: !ul 1
+    !h TypeName: ::Game::SaveMyDesignHolder
+    !h Members:
+      - !h Length1: !ul 1
+        !h Name: PlayerVillagerIndex
+        !h Alignment: !ul 1
+        !h TypeName: s8
+        !h Offset: !ul 0
+        !h Size: !ul 1
+    !h Size: !ul 1
+  - !h Alignment: !ul 4
+    !h TypeName: ::Game::SavePlayerId
+    !h Members:
+      - !h Length1: !ul 1
+        !h Name: LandId
+        !h Alignment: !ul 4
+        !h TypeName: ::Game::SaveLandId
+        !h Offset: !ul 0
+        !h Size: !ul 28
+      - !h Length1: !ul 1
+        !h Name: BaseId
+        !h Alignment: !ul 4
+        !h TypeName: ::Game::SavePlayerBaseId
+        !h Offset: !ul 28
+        !h Size: !ul 28
+    !h Size: !ul 56
+  - !h Alignment: !ul 8
+    !h TypeName: ::Game::SaveMyDesignPro
+    !h Members:
+      - !h Length1: !ul 1
+        !h Name: Palette
+        !h Alignment: !ul 1
+        !h TypeName: ::Game::SaveMyDesignPalette
+        !h Offset: !ul 120
+        !h Size: !ul 45
+      - !h Length1: !ul 1
+        !h Name: Version
+        !h Alignment: !ul 4
+        !h TypeName: ::Game::SaveMyDesignVersion
+        !h Offset: !ul 4
+        !h Size: !ul 4
+      - !h Length1: !ul 1
+        !h Name: Header
+        !h Alignment: !ul 8
+        !h TypeName: ::Game::SaveMyDesignHeader
+        !h Offset: !ul 8
+        !h Size: !ul 112
+      - !h Length1: !ul 1
+        !h Name: Usage
+        !h Alignment: !ul 1
+        !h TypeName: u8
+        !h Offset: !ul 2213
+        !h Size: !ul 1
+      - !h Length1: !ul 1
+        !h Name: Hash
+        !h Alignment: !ul 4
+        !h TypeName: u32
+        !h Offset: !ul 0
+        !h Size: !ul 4
+      - !h Length1: !ul 1
+        !h Name: !u 3121417401
+        !h Alignment: !ul 2
+        !h TypeName: u16
+        !h Offset: !ul 2214
+        !h Size: !ul 2
+      - !h Length1: !ul 4
+        !h Name: Sheets
+        !h Alignment: !ul 1
+        !h TypeName: !u 3601660749
+        !h Offset: !ul 165
+        !h Size: !ul 512
+    !h Size: !ul 2216
+  - !h Alignment: !ul 8
+    !h TypeName: ::Game::SaveMyDesignNormal
+    !h Members:
+      - !h Length1: !ul 1
+        !h Name: Palette
+        !h Alignment: !ul 1
+        !h TypeName: ::Game::SaveMyDesignPalette
+        !h Offset: !ul 120
+        !h Size: !ul 45
+      - !h Length1: !ul 1
+        !h Name: Version
+        !h Alignment: !ul 4
+        !h TypeName: ::Game::SaveMyDesignVersion
+        !h Offset: !ul 4
+        !h Size: !ul 4
+      - !h Length1: !ul 1
+        !h Name: Header
+        !h Alignment: !ul 8
+        !h TypeName: ::Game::SaveMyDesignHeader
+        !h Offset: !ul 8
+        !h Size: !ul 112
+      - !h Length1: !ul 1
+        !h Name: !u 2283708009
+        !h Alignment: !ul 2
+        !h TypeName: u16
+        !h Offset: !ul 678
+        !h Size: !ul 2
+      - !h Length1: !ul 1
+        !h Name: Hash
+        !h Alignment: !ul 4
+        !h TypeName: u32
+        !h Offset: !ul 0
+        !h Size: !ul 4
+      - !h Length1: !ul 1
+        !h Name: !u 3121417401
+        !h Alignment: !ul 1
+        !h TypeName: u8
+        !h Offset: !ul 677
+        !h Size: !ul 1
+      - !h Length1: !ul 1
+        !h Name: Sheets
+        !h Alignment: !ul 1
+        !h TypeName: !u 3601660749
+        !h Offset: !ul 165
+        !h Size: !ul 512
+    !h Size: !ul 680
+  - !h Alignment: !ul 2
+    !h TypeName: ::Game::SaveEventFlagHouse
+    !h Members:
+      - !h Length1: !ul 1
+        !h Name: Flags
+        !h Alignment: !ul 2
+        !h TypeName: !u 31855432
+        !h Offset: !ul 0
+        !h Size: !ul 256
+    !h Size: !ul 256
+  - !h Alignment: !ul 4
+    !h TypeName: ::Game::SaveItemName
+    !h Members:
+      - !h Length1: !ul 1
+        !h Name: AdditionalParam
+        !h Alignment: !ul 1
+        !h TypeName: ::Game::SaveItemAdditionalParam
+        !h Offset: !ul 3
+        !h Size: !ul 1
+      - !h Length1: !ul 1
+        !h Name: FreeParam
+        !h Alignment: !ul 4
+        !h TypeName: ::Game::SaveItemFreeParam
+        !h Offset: !ul 4
+        !h Size: !ul 4
+      - !h Length1: !ul 1
+        !h Name: SystemParam
+        !h Alignment: !ul 1
+        !h TypeName: ::Game::SaveItemSystemParam
+        !h Offset: !ul 2
+        !h Size: !ul 1
+      - !h Length1: !ul 1
+        !h Name: UniqueID
+        !h Alignment: !ul 2
+        !h TypeName: u16
+        !h Offset: !ul 0
+        !h Size: !ul 2
+    !h Size: !ul 8
+  - !h Alignment: !ul 2
+    !h TypeName: ::Game::SaveWordPlayerName
+    !h Members:
+      - !h Length1: !ul 1
+        !h Name: PlayerName
+        !h Alignment: !ul 2
+        !h TypeName: !u 2697692380
+        !h Offset: !ul 0
+        !h Size: !ul 20
+    !h Size: !ul 20
+  - !h Alignment: !ul 4
+    !h TypeName: ::Game::SaveMyDesignVersion
+    !h Members:
+      - !h Length1: !ul 1
+        !h Name: SaveDataVersion
+        !h Alignment: !ul 4
+        !h TypeName: u32
+        !h Offset: !ul 0
+        !h Size: !ul 4
+    !h Size: !ul 4
+  - !h Alignment: !ul 8
+    !h TypeName: ::Game::SaveLandMyDesign
+    !h Members:
+      - !h Length1: !ul 8
+        !h Name: ExhibitAccounts
+        !h Alignment: !ul 8
+        !h TypeName: !u 2838106675
+        !h Offset: !ul 308008
+        !h Size: !ul 16
+      - !h Length1: !ul 100
+        !h Name: MyDesignNormals
+        !h Alignment: !ul 8
+        !h TypeName: ::Game::SaveMyDesignNormal
+        !h Offset: !ul 0
+        !h Size: !ul 680
+      - !h Length1: !ul 1
+        !h Name: FlagMyDesign
+        !h Alignment: !ul 8
+        !h TypeName: ::Game::SaveMyDesignNormal
+        !h Offset: !ul 289600
+        !h Size: !ul 680
+      - !h Length1: !ul 8
+        !h Name: TailorMyDesigns
+        !h Alignment: !ul 8
+        !h TypeName: ::Game::SaveMyDesignPro
+        !h Offset: !ul 290280
+        !h Size: !ul 2216
+      - !h Length1: !ul 100
+        !h Name: MyDesignPros
+        !h Alignment: !ul 8
+        !h TypeName: ::Game::SaveMyDesignPro
+        !h Offset: !ul 68000
+        !h Size: !ul 2216
+    !h Size: !ul 308136
+  - !h Alignment: !ul 16
+    !h TypeName: !u 2069900089
+    !h Members:
+      - !h Length1: !ul 1
+        !h Name: Code
+        !h Alignment: !ul 4
+        !h TypeName: u32
+        !h Offset: !ul 0
+        !h Size: !ul 4
+    !h Size: !ul 16
+  - !h Alignment: !ul 1
+    !h TypeName: ::Game::SaveCockroach
+    !h Members:
+      - !h Length1: !ul 6
+        !h Name: !u 2668481563
+        !h Alignment: !ul 1
+        !h TypeName: bool
+        !h Offset: !ul 1
+        !h Size: !ul 1
+      - !h Length1: !ul 6
+        !h Name: !u 2975655884
+        !h Alignment: !ul 1
+        !h TypeName: u8
+        !h Offset: !ul 7
+        !h Size: !ul 1
+      - !h Length1: !ul 1
+        !h Name: GenerationCounter
+        !h Alignment: !ul 1
+        !h TypeName: s8
+        !h Offset: !ul 13
+        !h Size: !ul 1
+      - !h Length1: !ul 1
+        !h Name: CockroachStock
+        !h Alignment: !ul 1
+        !h TypeName: u8
+        !h Offset: !ul 0
+        !h Size: !ul 1
+    !h Size: !ul 14
+  - !h Alignment: !ul 4
+    !h TypeName: !u 2298017200
+    !h Members:
+      - !h Length1: !ul 1
+        !h Name: Enum
+        !h Alignment: !ul 4
+        !h TypeName: s32
+        !h Offset: !ul 0
+        !h Size: !ul 4
+    !h Size: !ul 4
+  - !h Alignment: !ul 2
+    !h TypeName: !u 2326029664
+    !h Members:
+      - !h Length1: !ul 10
+        !h Name: Buffer
+        !h Alignment: !ul 2
+        !h TypeName: char16
+        !h Offset: !ul 0
+        !h Size: !ul 2
+    !h Size: !ul 20
+  - !h Alignment: !ul 2
+    !h TypeName: !u 2697692380
+    !h Members:
+      - !h Length1: !ul 10
+        !h Name: Buffer
+        !h Alignment: !ul 2
+        !h TypeName: char16
+        !h Offset: !ul 0
+        !h Size: !ul 2
+    !h Size: !ul 20
+  - !h Alignment: !ul 1
+    !h TypeName: ::Game::SaveItemSystemParam
+    !h Members:
+      - !h Length1: !ul 1
+        !h Name: Type
+        !h Alignment: !ul 1
+        !h TypeName: !u 3176172728
+        !h Offset: !ul 0
+        !h Size: !ul 1
+    !h Size: !ul 1
+  - !h Alignment: !ul 8
+    !h TypeName: !u 2838106675
+    !h Members:
+      - !h Length1: !ul 1
+        !h Name: NSAID
+        !h Alignment: !ul 8
+        !h TypeName: u64
+        !h Offset: !ul 8
+        !h Size: !ul 8
+      - !h Length1: !ul 1
+        !h Name: POPID
+        !h Alignment: !ul 8
+        !h TypeName: u64
+        !h Offset: !ul 0
+        !h Size: !ul 8
+    !h Size: !ul 16
+  - !h Alignment: !ul 2
+    !h TypeName: ::Game::SaveAudioInfo
+    !h Members:
+      - !h Length1: !ul 1
+        !h Name: IsShuffle
+        !h Alignment: !ul 1
+        !h TypeName: !u 1153857660
+        !h Offset: !ul 3
+        !h Size: !ul 1
+      - !h Length1: !ul 1
+        !h Name: !u 1956346050
+        !h Alignment: !ul 1
+        !h TypeName: s8
+        !h Offset: !ul 2
+        !h Size: !ul 1
+      - !h Length1: !ul 1
+        !h Name: PlayingAudioMusicID
+        !h Alignment: !ul 2
+        !h TypeName: s16
+        !h Offset: !ul 0
+        !h Size: !ul 2
+    !h Size: !ul 4
+  - !h Alignment: !ul 4
+    !h TypeName: !u 3021079062
+    !h Members:
+      - !h Length1: !ul 1
+        !h Name: Enum
+        !h Alignment: !ul 4
+        !h TypeName: s32
+        !h Offset: !ul 0
+        !h Size: !ul 4
+    !h Size: !ul 4
+  - !h Alignment: !ul 4
+    !h TypeName: !u 3255453205
+    !h Members:
+      - !h Length1: !ul 13
+        !h Name: Bits
+        !h Alignment: !ul 4
+        !h TypeName: u32
+        !h Offset: !ul 0
+        !h Size: !ul 4
+    !h Size: !ul 52
+  - !h Alignment: !ul 4
+    !h TypeName: ::Game::SavePlayerHouse
+    !h Members:
+      - !h Length1: !ul 1
+        !h Name: OrderWallUniqueID
+        !h Alignment: !ul 2
+        !h TypeName: u16
+        !h Offset: !ul 10
+        !h Size: !ul 2
+      - !h Length1: !ul 1
+        !h Name: Loan
+        !h Alignment: !ul 4
+        !h TypeName: ::Game::SaveMoney
+        !h Offset: !ul 16
+        !h Size: !ul 8
+      - !h Length1: !ul 1
+        !h Name: ReturnsLoan
+        !h Alignment: !ul 4
+        !h TypeName: ::Game::SaveMoney
+        !h Offset: !ul 24
+        !h Size: !ul 8
+      - !h Length1: !ul 1
+        !h Name: PostItemName
+        !h Alignment: !ul 4
+        !h TypeName: ::Game::SaveItemName
+        !h Offset: !ul 156640
+        !h Size: !ul 8
+      - !h Length1: !ul 2
+        !h Name: PlayerList
+        !h Alignment: !ul 1
+        !h TypeName: s8
+        !h Offset: !ul 156624
+        !h Size: !ul 1
+      - !h Length1: !ul 1
+        !h Name: WallUniqueID
+        !h Alignment: !ul 2
+        !h TypeName: u16
+        !h Offset: !ul 4
+        !h Size: !ul 2
+      - !h Length1: !ul 1
+        !h Name: OrderDoorUniqueID
+        !h Alignment: !ul 2
+        !h TypeName: u16
+        !h Offset: !ul 14
+        !h Size: !ul 2
+      - !h Length1: !ul 1
+        !h Name: HouseLevel
+        !h Alignment: !ul 4
+        !h TypeName: !u 3021079062
+        !h Offset: !ul 0
+        !h Size: !ul 4
+      - !h Length1: !ul 1
+        !h Name: DoorDecoItemName
+        !h Alignment: !ul 4
+        !h TypeName: ::Game::SaveItemName
+        !h Offset: !ul 156628
+        !h Size: !ul 8
+      - !h Length1: !ul 1
+        !h Name: PlayerHouseFlag
+        !h Alignment: !ul 1
+        !h TypeName: !u 1153857660
+        !h Offset: !ul 156636
+        !h Size: !ul 1
+      - !h Length1: !ul 1
+        !h Name: RoofUniqueID
+        !h Alignment: !ul 2
+        !h TypeName: u16
+        !h Offset: !ul 6
+        !h Size: !ul 2
+      - !h Length1: !ul 1
+        !h Name: OrderPostItemName
+        !h Alignment: !ul 4
+        !h TypeName: ::Game::SaveItemName
+        !h Offset: !ul 156648
+        !h Size: !ul 8
+      - !h Length1: !ul 1
+        !h Name: EventFlag
+        !h Alignment: !ul 2
+        !h TypeName: ::Game::SaveEventFlagHouse
+        !h Offset: !ul 32
+        !h Size: !ul 256
+      - !h Length1: !ul 6
+        !h Name: RoomList
+        !h Alignment: !ul 4
+        !h TypeName: ::Game::SavePlayerHouseRoom
+        !h Offset: !ul 288
+        !h Size: !ul 26056
+      - !h Length1: !ul 1
+        !h Name: DoorUniqueID
+        !h Alignment: !ul 2
+        !h TypeName: u16
+        !h Offset: !ul 8
+        !h Size: !ul 2
+      - !h Length1: !ul 1
+        !h Name: Cockroach
+        !h Alignment: !ul 1
+        !h TypeName: ::Game::SaveCockroach
+        !h Offset: !ul 156656
+        !h Size: !ul 14
+      - !h Length1: !ul 1
+        !h Name: OrderRoofUniqueID
+        !h Alignment: !ul 2
+        !h TypeName: u16
+        !h Offset: !ul 12
+        !h Size: !ul 2
+    !h Size: !ul 156672
+  - !h Alignment: !ul 16
+    !h TypeName: !u 3543232700
+    !h Members:
+      - !h Length1: !ul 1
+        !h Name: PreviousVillagerIndex
+        !h Alignment: !ul 1
+        !h TypeName: s8
+        !h Offset: !ul 465480
+        !h Size: !ul 1
+      - !h Length1: !ul 1
+        !h Name: PlayerHouse
+        !h Alignment: !ul 4
+        !h TypeName: ::Game::SavePlayerHouse
+        !h Offset: !ul 272
+        !h Size: !ul 156672
+      - !h Length1: !ul 1
+        !h Name: MyDesignListOrder
+        !h Alignment: !ul 1
+        !h TypeName: ::Game::SaveMyDesignListOrder
+        !h Offset: !ul 465280
+        !h Size: !ul 200
+      - !h Length1: !ul 1
+        !h Name: LandMyDesign
+        !h Alignment: !ul 8
+        !h TypeName: ::Game::SaveLandMyDesign
+        !h Offset: !ul 156944
+        !h Size: !ul 308136
+      - !h Length1: !ul 1
+        !h Name: MyDesignHolderList
+        !h Alignment: !ul 1
+        !h TypeName: ::Game::SaveMyDesignHolderList
+        !h Offset: !ul 465080
+        !h Size: !ul 200
+      - !h Length1: !ul 1
+        !h Name: !u 3545928273
+        !h Alignment: !ul 16
+        !h TypeName: !u 2069900089
+        !h Offset: !ul 256
+        !h Size: !ul 16
+    !h Size: !ul 465488
+  - !h Alignment: !ul 4
+    !h TypeName: ::Game::SaveMoney
+    !h Members:
+      - !h Length1: !ul 1
+        !h Name: Wallet
+        !h Alignment: !ul 4
+        !h TypeName: !u 3966101428
+        !h Offset: !ul 0
+        !h Size: !ul 8
+    !h Size: !ul 8
+  - !h Alignment: !ul 4
+    !h TypeName: !u 3636229259
+    !h Members:
+      - !h Length1: !ul 20
+        !h Name: ItemArray
+        !h Alignment: !ul 4
+        !h TypeName: ::Game::SaveItemName
+        !h Offset: !ul 0
+        !h Length2: !ul 20
+        !h Size: !ul 8
+    !h Size: !ul 3200
+  - !h Alignment: !ul 1
+    !h TypeName: ::Game::SaveItemAdditionalParam
+    !h Members:
+      - !h Length1: !ul 1
+        !h Name: Type
+        !h Alignment: !ul 1
+        !h TypeName: !u 682075667
+        !h Offset: !ul 0
+        !h Size: !ul 1
+    !h Size: !ul 1
+  - !h Alignment: !ul 4
+    !h TypeName: ::Game::SavePlayerHouseRoom
+    !h Members:
+      - !h Length1: !ul 1
+        !h Name: RoomFloorWall
+        !h Alignment: !ul 4
+        !h TypeName: ::Game::SaveRoomFloorWall
+        !h Offset: !ul 26020
+        !h Size: !ul 36
+      - !h Length1: !ul 8
+        !h Name: ItemSwitchList
+        !h Alignment: !ul 4
+        !h TypeName: !u 3255453205
+        !h Offset: !ul 25600
+        !h Size: !ul 52
+      - !h Length1: !ul 1
+        !h Name: AudioInfo
+        !h Alignment: !ul 2
+        !h TypeName: ::Game::SaveAudioInfo
+        !h Offset: !ul 26016
+        !h Size: !ul 4
+      - !h Length1: !ul 8
+        !h Name: ItemLayerList
+        !h Alignment: !ul 4
+        !h TypeName: !u 3636229259
+        !h Offset: !ul 0
+        !h Size: !ul 3200
+    !h Size: !ul 26056
+  - !h Alignment: !ul 4
+    !h TypeName: ::Game::SaveLandId
+    !h Members:
+      - !h Length1: !ul 1
+        !h Name: Name
+        !h Alignment: !ul 2
+        !h TypeName: ::Game::SaveWordTownName
+        !h Offset: !ul 4
+        !h Size: !ul 20
+      - !h Length1: !ul 1
+        !h Name: IslandRubyType
+        !h Alignment: !ul 1
+        !h TypeName: u8
+        !h Offset: !ul 24
+        !h Size: !ul 1
+      - !h Length1: !ul 1
+        !h Name: Id
+        !h Alignment: !ul 4
+        !h TypeName: u32
+        !h Offset: !ul 0
+        !h Size: !ul 4
+    !h Size: !ul 28
+  - !h Alignment: !ul 4
+    !h TypeName: !u 3966101428
+    !h Members:
+      - !h Length1: !ul 1
+        !h Name: !u 1910413618
+        !h Alignment: !ul 4
+        !h TypeName: u32
+        !h Offset: !ul 0
+        !h Size: !ul 4
+      - !h Length1: !ul 1
+        !h Name: !u 2044029452
+        !h Alignment: !ul 2
+        !h TypeName: u16
+        !h Offset: !ul 4
+        !h Size: !ul 2
+      - !h Length1: !ul 1
+        !h Name: !u 3316948862
+        !h Alignment: !ul 1
+        !h TypeName: u8
+        !h Offset: !ul 7
+        !h Size: !ul 1
+      - !h Length1: !ul 1
+        !h Name: !u 3599853758
+        !h Alignment: !ul 1
+        !h TypeName: u8
+        !h Offset: !ul 6
+        !h Size: !ul 1
+    !h Size: !ul 8
+  - !h Alignment: !ul 1
+    !h TypeName: ::Game::SaveMyDesignHolderList
+    !h Members:
+      - !h Length1: !ul 100
+        !h Name: ProHolders
+        !h Alignment: !ul 1
+        !h TypeName: ::Game::SaveMyDesignHolder
+        !h Offset: !ul 100
+        !h Size: !ul 1
+      - !h Length1: !ul 100
+        !h Name: NormalHolders
+        !h Alignment: !ul 1
+        !h TypeName: ::Game::SaveMyDesignHolder
+        !h Offset: !ul 0
+        !h Size: !ul 1
+    !h Size: !ul 200
+  - !h Alignment: !ul 1
+    !h TypeName: ::Game::SaveMyDesignListOrder
+    !h Members:
+      - !h Length1: !ul 100
+        !h Name: MyDesignListOrderNormals
+        !h Alignment: !ul 1
+        !h TypeName: s8
+        !h Offset: !ul 0
+        !h Size: !ul 1
+      - !h Length1: !ul 100
+        !h Name: MyDesignListOrderPros
+        !h Alignment: !ul 1
+        !h TypeName: s8
+        !h Offset: !ul 100
+        !h Size: !ul 1
+    !h Size: !ul 200

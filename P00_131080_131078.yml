@@ -1,0 +1,3011 @@
+Version: 4
+IsBigEndian: False
+SupportPaths: False
+HasReferenceNodes: False
+root:
+  - !h Alignment: !ul 4
+    !h TypeName: !u 38059377
+    !h Members:
+      - !h Length1: !ul 1
+        !h Name: Enum
+        !h Alignment: !ul 4
+        !h TypeName: s32
+        !h Offset: !ul 0
+        !h Size: !ul 4
+    !h Size: !ul 4
+  - !h Alignment: !ul 2
+    !h TypeName: ::Game::SaveEventFlagPlayer
+    !h Members:
+      - !h Length1: !ul 1
+        !h Name: Flags
+        !h Alignment: !ul 2
+        !h TypeName: !u 3952342437
+        !h Offset: !ul 0
+        !h Size: !ul 4096
+    !h Size: !ul 4096
+  - !h Alignment: !ul 16
+    !h TypeName: ::Game::SavePlayerOther
+    !h Members:
+      - !h Length1: !ul 1
+        !h Name: KabuSell
+        !h Alignment: !ul 4
+        !h TypeName: ::Game::SaveMoney
+        !h Offset: !ul 226224
+        !h Size: !ul 8
+      - !h Length1: !ul 1
+        !h Name: ClockTimeList
+        !h Alignment: !ul 1
+        !h TypeName: ::Game::SaveClockTimeList
+        !h Offset: !ul 226448
+        !h Size: !ul 384
+      - !h Length1: !ul 1
+        !h Name: !u 123609978
+        !h Alignment: !ul 4
+        !h TypeName: u32
+        !h Offset: !ul 226444
+        !h Size: !ul 4
+      - !h Length1: !ul 1
+        !h Name: BoxTransfer
+        !h Alignment: !ul 4
+        !h TypeName: ::Game::SaveMoney
+        !h Offset: !ul 226436
+        !h Size: !ul 8
+      - !h Length1: !ul 1
+        !h Name: Manpu
+        !h Alignment: !ul 1
+        !h TypeName: ::Game::SavePlayerManpu
+        !h Offset: !ul 44924
+        !h Size: !ul 136
+      - !h Length1: !ul 1
+        !h Name: KabuBuy
+        !h Alignment: !ul 4
+        !h TypeName: ::Game::SaveMoney
+        !h Offset: !ul 226216
+        !h Size: !ul 8
+      - !h Length1: !ul 1
+        !h Name: PlayReportInfo
+        !h Alignment: !ul 8
+        !h TypeName: ::Game::SavePersonalPlayReportInfo
+        !h Offset: !ul 221536
+        !h Size: !ul 3344
+      - !h Length1: !ul 1
+        !h Name: DiveFishCollection
+        !h Alignment: !ul 2
+        !h TypeName: ::Game::SaveDiveFishCollection
+        !h Offset: !ul 225308
+        !h Size: !ul 130
+      - !h Length1: !ul 1
+        !h Name: MailUserInfo
+        !h Alignment: !ul 8
+        !h TypeName: ::Game::SaveMailUserInfo
+        !h Offset: !ul 45064
+        !h Size: !ul 78872
+      - !h Length1: !ul 1
+        !h Name: BoxSell
+        !h Alignment: !ul 4
+        !h TypeName: ::Game::SaveMoney
+        !h Offset: !ul 214508
+        !h Size: !ul 8
+      - !h Length1: !ul 1
+        !h Name: InsectCollection
+        !h Alignment: !ul 2
+        !h TypeName: ::Game::SaveInsectCollection
+        !h Offset: !ul 225094
+        !h Size: !ul 214
+      - !h Length1: !ul 1
+        !h Name: ItemInsectFishBox
+        !h Alignment: !ul 4
+        !h TypeName: ::Game::SavePlayerItemInsectFishBox
+        !h Offset: !ul 40400
+        !h Size: !ul 328
+      - !h Length1: !ul 1
+        !h Name: VisitorInfo
+        !h Alignment: !ul 8
+        !h TypeName: ::Game::SavePlayerVisitorNpc
+        !h Offset: !ul 221360
+        !h Size: !ul 136
+      - !h Length1: !ul 1
+        !h Name: ItemBaggage
+        !h Alignment: !ul 4
+        !h TypeName: ::Game::SavePlayerItemBaggage
+        !h Offset: !ul 16
+        !h Size: !ul 380
+      - !h Length1: !ul 1
+        !h Name: AudioRegister
+        !h Alignment: !ul 4
+        !h TypeName: ::Game::SaveAudioRegister
+        !h Offset: !ul 221496
+        !h Size: !ul 32
+      - !h Length1: !ul 1
+        !h Name: FriendList
+        !h Alignment: !ul 8
+        !h TypeName: ::Game::SaveFriendList
+        !h Offset: !ul 168088
+        !h Size: !ul 46408
+      - !h Length1: !ul 1
+        !h Name: Setting
+        !h Alignment: !ul 1
+        !h TypeName: ::Game::SaveSetting
+        !h Offset: !ul 214496
+        !h Size: !ul 1
+      - !h Length1: !ul 1
+        !h Name: PreviousLandId
+        !h Alignment: !ul 4
+        !h TypeName: ::Game::SaveLandId
+        !h Offset: !ul 226232
+        !h Size: !ul 28
+      - !h Length1: !ul 1
+        !h Name: RegionLanguageID
+        !h Alignment: !ul 4
+        !h TypeName: !u 2043697583
+        !h Offset: !ul 221528
+        !h Size: !ul 4
+      - !h Length1: !ul 1
+        !h Name: !u 1762937431
+        !h Alignment: !ul 4
+        !h TypeName: !u 2892768039
+        !h Offset: !ul 167928
+        !h Size: !ul 140
+      - !h Length1: !ul 1
+        !h Name: ReceivedBCAT
+        !h Alignment: !ul 4
+        !h TypeName: !u 2976068050
+        !h Offset: !ul 225700
+        !h Size: !ul 516
+      - !h Length1: !ul 1
+        !h Name: NetPlayerID
+        !h Alignment: !ul 8
+        !h TypeName: ::Game::SaveNetPlayerID
+        !h Offset: !ul 219640
+        !h Size: !ul 88
+      - !h Length1: !ul 1
+        !h Name: EventFlagPlayerTemp
+        !h Alignment: !ul 2
+        !h TypeName: ::Game::SaveEventFlagPlayerTemp
+        !h Offset: !ul 226896
+        !h Size: !ul 256
+      - !h Length1: !ul 1
+        !h Name: ReceivedAoC
+        !h Alignment: !ul 4
+        !h TypeName: !u 742004188
+        !h Offset: !ul 225440
+        !h Size: !ul 260
+      - !h Length1: !ul 1
+        !h Name: RemakeCommonPattern
+        !h Alignment: !ul 1
+        !h TypeName: ::Game::SaveRemakeCommonPattern
+        !h Offset: !ul 226420
+        !h Size: !ul 16
+      - !h Length1: !ul 1
+        !h Name: FoxTotalBuy
+        !h Alignment: !ul 4
+        !h TypeName: ::Game::SaveMoney
+        !h Offset: !ul 227448
+        !h Size: !ul 8
+      - !h Length1: !ul 1
+        !h Name: !u 2766506840
+        !h Alignment: !ul 2
+        !h TypeName: ::Game::SaveDate
+        !h Offset: !ul 123940
+        !h Size: !ul 4
+      - !h Length1: !ul 1
+        !h Name: Savings
+        !h Alignment: !ul 4
+        !h TypeName: ::Game::SaveMoney
+        !h Offset: !ul 214500
+        !h Size: !ul 8
+      - !h Length1: !ul 1
+        !h Name: ItemChest
+        !h Alignment: !ul 4
+        !h TypeName: ::Game::SavePlayerItemChest
+        !h Offset: !ul 396
+        !h Size: !ul 40004
+      - !h Length1: !ul 1
+        !h Name: CraftingRecipeCollect
+        !h Alignment: !ul 2
+        !h TypeName: ::Game::SaveCraftingRecipeCollect
+        !h Offset: !ul 214516
+        !h Size: !ul 5120
+      - !h Length1: !ul 1
+        !h Name: HashList
+        !h Alignment: !ul 4
+        !h TypeName: ::Game::SaveHashList
+        !h Offset: !ul 226832
+        !h Size: !ul 64
+      - !h Length1: !ul 1
+        !h Name: !u 3045540862
+        !h Alignment: !ul 2
+        !h TypeName: ::Game::SaveDate
+        !h Offset: !ul 123936
+        !h Size: !ul 4
+      - !h Length1: !ul 1
+        !h Name: DeviceId
+        !h Alignment: !ul 1
+        !h TypeName: nn::util::Uuid
+        !h Offset: !ul 227408
+        !h Size: !ul 16
+      - !h Length1: !ul 1
+        !h Name: !u 3153795596
+        !h Alignment: !ul 2
+        !h TypeName: ::Game::SaveDate
+        !h Offset: !ul 227444
+        !h Size: !ul 4
+      - !h Length1: !ul 1
+        !h Name: ItemCollectBit
+        !h Alignment: !ul 4
+        !h TypeName: ::Game::SaveItemCollectBit
+        !h Offset: !ul 41048
+        !h Size: !ul 1876
+      - !h Length1: !ul 1
+        !h Name: !u 3545928273
+        !h Alignment: !ul 16
+        !h TypeName: !u 2069900089
+        !h Offset: !ul 0
+        !h Size: !ul 16
+      - !h Length1: !ul 1
+        !h Name: ItemRemakeCollectBit
+        !h Alignment: !ul 4
+        !h TypeName: ::Game::SaveItemRemakeCollectBit
+        !h Offset: !ul 42924
+        !h Size: !ul 2000
+      - !h Length1: !ul 1
+        !h Name: MoveOutBoxMoney
+        !h Alignment: !ul 2
+        !h TypeName: ::Game::SaveDate
+        !h Offset: !ul 219636
+        !h Size: !ul 4
+      - !h Length1: !ul 1
+        !h Name: MailUserLog
+        !h Alignment: !ul 2
+        !h TypeName: ::Game::SaveMailUserLog
+        !h Offset: !ul 227424
+        !h Size: !ul 20
+      - !h Length1: !ul 1
+        !h Name: NetMailBox
+        !h Alignment: !ul 8
+        !h TypeName: ::Game::SaveNetMailBox
+        !h Offset: !ul 219728
+        !h Size: !ul 1632
+      - !h Length1: !ul 1
+        !h Name: ItemMaterial
+        !h Alignment: !ul 4
+        !h TypeName: ::Game::SavePlayerItemMaterial
+        !h Offset: !ul 40728
+        !h Size: !ul 320
+      - !h Length1: !ul 1
+        !h Name: !u 4060726345
+        !h Alignment: !ul 4
+        !h TypeName: !u 1978663468
+        !h Offset: !ul 168068
+        !h Size: !ul 16
+      - !h Length1: !ul 1
+        !h Name: EventFlagPlayerVisit
+        !h Alignment: !ul 2
+        !h TypeName: ::Game::SaveEventFlagPlayerVisit
+        !h Offset: !ul 227152
+        !h Size: !ul 256
+      - !h Length1: !ul 1
+        !h Name: PostingReserveList
+        !h Alignment: !ul 4
+        !h TypeName: ::Game::SavePostingReserveList
+        !h Offset: !ul 123944
+        !h Size: !ul 43984
+      - !h Length1: !ul 1
+        !h Name: Amiibo
+        !h Alignment: !ul 4
+        !h TypeName: ::Game::SaveAmiibo
+        !h Offset: !ul 226260
+        !h Size: !ul 160
+      - !h Length1: !ul 1
+        !h Name: FishCollection
+        !h Alignment: !ul 2
+        !h TypeName: ::Game::SaveFishCollection
+        !h Offset: !ul 224880
+        !h Size: !ul 214
+    !h Size: !ul 227456
+  - !h Alignment: !ul 4
+    !h TypeName: ::Game::SaveNormalNpcBitFlag
+    !h Members:
+      - !h Length1: !ul 35
+        !h Name: NormalNpcBitFlag
+        !h Alignment: !ul 4
+        !h TypeName: u32
+        !h Offset: !ul 0
+        !h Size: !ul 4
+    !h Size: !ul 140
+  - !h Alignment: !ul 1
+    !h TypeName: ::Game::SaveMyDesignPalette
+    !h Members:
+      - !h Length1: !ul 45
+        !h Name: Colors
+        !h Alignment: !ul 1
+        !h TypeName: u8
+        !h Offset: !ul 0
+        !h Size: !ul 1
+    !h Size: !ul 45
+  - !h Alignment: !ul 4
+    !h TypeName: ::Game::SavePostingReserveMilage
+    !h Members:
+      - !h Length1: !ul 1
+        !h Name: Present
+        !h Alignment: !ul 4
+        !h TypeName: ::Game::SaveItemName
+        !h Offset: !ul 4
+        !h Size: !ul 8
+      - !h Length1: !ul 1
+        !h Name: Reserved
+        !h Alignment: !ul 1
+        !h TypeName: bool
+        !h Offset: !ul 0
+        !h Size: !ul 1
+      - !h Length1: !ul 1
+        !h Name: Date
+        !h Alignment: !ul 2
+        !h TypeName: ::Game::SaveDate
+        !h Offset: !ul 12
+        !h Size: !ul 4
+    !h Size: !ul 16
+  - !h Alignment: !ul 2
+    !h TypeName: ::Game::SaveDiveFishCollection
+    !h Members:
+      - !h Length1: !ul 1
+        !h Name: NewDiveFishFlag
+        !h Alignment: !ul 1
+        !h TypeName: !u 346578348
+        !h Offset: !ul 120
+        !h Size: !ul 8
+      - !h Length1: !ul 60
+        !h Name: DiveFish
+        !h Alignment: !ul 2
+        !h TypeName: ::Game::SaveFirstCollection
+        !h Offset: !ul 0
+        !h Size: !ul 2
+      - !h Length1: !ul 1
+        !h Name: Count
+        !h Alignment: !ul 1
+        !h TypeName: u8
+        !h Offset: !ul 128
+        !h Size: !ul 1
+    !h Size: !ul 130
+  - !h Alignment: !ul 4
+    !h TypeName: ::Game::SavePlayerBaseId
+    !h Members:
+      - !h Length1: !ul 1
+        !h Name: Name
+        !h Alignment: !ul 2
+        !h TypeName: ::Game::SaveWordPlayerName
+        !h Offset: !ul 4
+        !h Size: !ul 20
+      - !h Length1: !ul 1
+        !h Name: Gender
+        !h Alignment: !ul 4
+        !h TypeName: !u 2298017200
+        !h Offset: !ul 24
+        !h Size: !ul 4
+      - !h Length1: !ul 1
+        !h Name: Id
+        !h Alignment: !ul 4
+        !h TypeName: u32
+        !h Offset: !ul 0
+        !h Size: !ul 4
+    !h Size: !ul 28
+  - !h Alignment: !ul 4
+    !h TypeName: ::Game::SavePostingReserveCommune
+    !h Members:
+      - !h Length1: !ul 1
+        !h Name: ReserveBase
+        !h Alignment: !ul 4
+        !h TypeName: ::Game::SavePostingReserveBase
+        !h Offset: !ul 0
+        !h Size: !ul 688
+      - !h Length1: !ul 1
+        !h Name: FromNpcId
+        !h Alignment: !ul 1
+        !h TypeName: Game::NpcNormalID
+        !h Offset: !ul 690
+        !h Size: !ul 3
+      - !h Length1: !ul 1
+        !h Name: ReserveType
+        !h Alignment: !ul 1
+        !h TypeName: u8
+        !h Offset: !ul 688
+        !h Size: !ul 1
+      - !h Length1: !ul 1
+        !h Name: FromType
+        !h Alignment: !ul 1
+        !h TypeName: u8
+        !h Offset: !ul 689
+        !h Size: !ul 1
+      - !h Length1: !ul 1
+        !h Name: FromSystemId
+        !h Alignment: !ul 1
+        !h TypeName: u8
+        !h Offset: !ul 693
+        !h Size: !ul 1
+    !h Size: !ul 696
+  - !h Alignment: !ul 4
+    !h TypeName: !u 309534016
+    !h Members:
+      - !h Length1: !ul 80
+        !h Name: Counter
+        !h Alignment: !ul 4
+        !h TypeName: u32
+        !h Offset: !ul 0
+        !h Size: !ul 4
+    !h Size: !ul 320
+  - !h Alignment: !ul 8
+    !h TypeName: ::Game::SaveMyDesignHeader
+    !h Members:
+      - !h Length1: !ul 1
+        !h Name: HomePlace
+        !h Alignment: !ul 2
+        !h TypeName: u16
+        !h Offset: !ul 106
+        !h Size: !ul 2
+      - !h Length1: !ul 1
+        !h Name: Title
+        !h Alignment: !ul 2
+        !h TypeName: !u 548907015
+        !h Offset: !ul 8
+        !h Size: !ul 40
+      - !h Length1: !ul 1
+        !h Name: ColorSet
+        !h Alignment: !ul 1
+        !h TypeName: u8
+        !h Offset: !ul 105
+        !h Size: !ul 1
+      - !h Length1: !ul 1
+        !h Name: NetMyDesignID
+        !h Alignment: !ul 8
+        !h TypeName: Game::Net::MyDesignID
+        !h Offset: !ul 0
+        !h Size: !ul 8
+      - !h Length1: !ul 1
+        !h Name: Flags
+        !h Alignment: !ul 1
+        !h TypeName: u8
+        !h Offset: !ul 104
+        !h Size: !ul 1
+      - !h Length1: !ul 1
+        !h Name: Author
+        !h Alignment: !ul 4
+        !h TypeName: ::Game::SavePlayerId
+        !h Offset: !ul 48
+        !h Size: !ul 56
+    !h Size: !ul 112
+  - !h Alignment: !ul 8
+    !h TypeName: ::Game::SaveFriendData
+    !h Members:
+      - !h Length1: !ul 1
+        !h Name: UpdateTime
+        !h Alignment: !ul 2
+        !h TypeName: ::Game::SaveTime
+        !h Offset: !ul 72
+        !h Size: !ul 8
+      - !h Length1: !ul 1
+        !h Name: SendGiftCountToday
+        !h Alignment: !ul 1
+        !h TypeName: u8
+        !h Offset: !ul 109
+        !h Size: !ul 1
+      - !h Length1: !ul 1
+        !h Name: SendMailCountTotal
+        !h Alignment: !ul 4
+        !h TypeName: u32
+        !h Offset: !ul 88
+        !h Size: !ul 4
+      - !h Length1: !ul 1
+        !h Name: Status
+        !h Alignment: !ul 1
+        !h TypeName: !u 1153857660
+        !h Offset: !ul 110
+        !h Size: !ul 1
+      - !h Length1: !ul 1
+        !h Name: SendTime
+        !h Alignment: !ul 2
+        !h TypeName: ::Game::SaveTime
+        !h Offset: !ul 80
+        !h Size: !ul 8
+      - !h Length1: !ul 1
+        !h Name: NSAID
+        !h Alignment: !ul 8
+        !h TypeName: !u 17472036
+        !h Offset: !ul 8
+        !h Size: !ul 8
+      - !h Length1: !ul 1
+        !h Name: SendGiftCountTotal
+        !h Alignment: !ul 4
+        !h TypeName: u32
+        !h Offset: !ul 92
+        !h Size: !ul 4
+      - !h Length1: !ul 1
+        !h Name: PlayerId
+        !h Alignment: !ul 4
+        !h TypeName: ::Game::SavePlayerId
+        !h Offset: !ul 16
+        !h Size: !ul 56
+      - !h Length1: !ul 1
+        !h Name: CharaMakeSetting
+        !h Alignment: !ul 2
+        !h TypeName: Game::CharaMakeSetting
+        !h Offset: !ul 96
+        !h Size: !ul 12
+      - !h Length1: !ul 1
+        !h Name: POPID
+        !h Alignment: !ul 8
+        !h TypeName: ::Game::Net::POPID
+        !h Offset: !ul 0
+        !h Size: !ul 8
+      - !h Length1: !ul 1
+        !h Name: SendMailCountToday
+        !h Alignment: !ul 1
+        !h TypeName: u8
+        !h Offset: !ul 108
+        !h Size: !ul 1
+    !h Size: !ul 112
+  - !h Alignment: !ul 2
+    !h TypeName: ::Game::SaveWordCoordinateName
+    !h Members:
+      - !h Length1: !ul 1
+        !h Name: CoordinateName
+        !h Alignment: !ul 2
+        !h TypeName: !u 533168459
+        !h Offset: !ul 0
+        !h Size: !ul 96
+    !h Size: !ul 96
+  - !h Alignment: !ul 4
+    !h TypeName: ::Game::SaveItemFreeParam
+    !h Members:
+      - !h Length1: !ul 1
+        !h Name: Type
+        !h Alignment: !ul 4
+        !h TypeName: !u 795349106
+        !h Offset: !ul 0
+        !h Size: !ul 4
+    !h Size: !ul 4
+  - !h Alignment: !ul 2
+    !h TypeName: !u 533168459
+    !h Members:
+      - !h Length1: !ul 48
+        !h Name: Buffer
+        !h Alignment: !ul 2
+        !h TypeName: char16
+        !h Offset: !ul 0
+        !h Size: !ul 2
+    !h Size: !ul 96
+  - !h Alignment: !ul 2
+    !h TypeName: !u 548907015
+    !h Members:
+      - !h Length1: !ul 20
+        !h Name: Buffer
+        !h Alignment: !ul 2
+        !h TypeName: char16
+        !h Offset: !ul 0
+        !h Size: !ul 2
+    !h Size: !ul 40
+  - !h Alignment: !ul 2
+    !h TypeName: ::Game::SaveMailUserLog
+    !h Members:
+      - !h Length1: !ul 10
+        !h Name: ListNpcSend
+        !h Alignment: !ul 2
+        !h TypeName: u16
+        !h Offset: !ul 0
+        !h Size: !ul 2
+    !h Size: !ul 20
+  - !h Alignment: !ul 2
+    !h TypeName: ::Game::SaveWordTownName
+    !h Members:
+      - !h Length1: !ul 1
+        !h Name: TownName
+        !h Alignment: !ul 2
+        !h TypeName: !u 2326029664
+        !h Offset: !ul 0
+        !h Size: !ul 20
+    !h Size: !ul 20
+  - !h Alignment: !ul 8
+    !h TypeName: ::Game::SavePlayerTool
+    !h Members:
+      - !h Length1: !ul 1
+        !h Name: Tool
+        !h Alignment: !ul 8
+        !h TypeName: ::Game::SaveItemNameWithMyDesign
+        !h Offset: !ul 0
+        !h Size: !ul 2224
+      - !h Length1: !ul 1
+        !h Name: IndexInHolder
+        !h Alignment: !ul 1
+        !h TypeName: s8
+        !h Offset: !ul 2225
+        !h Size: !ul 1
+      - !h Length1: !ul 1
+        !h Name: LinkHolder
+        !h Alignment: !ul 1
+        !h TypeName: u8
+        !h Offset: !ul 2224
+        !h Size: !ul 1
+    !h Size: !ul 2232
+  - !h Alignment: !ul 4
+    !h TypeName: ::Game::SavePostingReserveList
+    !h Members:
+      - !h Length1: !ul 5
+        !h Name: ListCatalog
+        !h Alignment: !ul 4
+        !h TypeName: ::Game::SavePostingReserveCatalog
+        !h Offset: !ul 34696
+        !h Size: !ul 744
+      - !h Length1: !ul 30
+        !h Name: ListTomorrowNpc
+        !h Alignment: !ul 4
+        !h TypeName: ::Game::SavePostingReserveTomorrowNpc
+        !h Offset: !ul 0
+        !h Size: !ul 692
+      - !h Length1: !ul 16
+        !h Name: ListTomorrowSystem
+        !h Alignment: !ul 4
+        !h TypeName: ::Game::SavePostingReserveTomorrowSystem
+        !h Offset: !ul 20760
+        !h Size: !ul 692
+      - !h Length1: !ul 4
+        !h Name: ListInScene
+        !h Alignment: !ul 4
+        !h TypeName: ::Game::SavePostingReserveInScene
+        !h Offset: !ul 31832
+        !h Size: !ul 696
+      - !h Length1: !ul 8
+        !h Name: ListCommune
+        !h Alignment: !ul 4
+        !h TypeName: ::Game::SavePostingReserveCommune
+        !h Offset: !ul 38416
+        !h Size: !ul 696
+      - !h Length1: !ul 5
+        !h Name: ListMilage
+        !h Alignment: !ul 4
+        !h TypeName: ::Game::SavePostingReserveMilage
+        !h Offset: !ul 34616
+        !h Size: !ul 16
+    !h Size: !ul 43984
+  - !h Alignment: !ul 8
+    !h TypeName: !u 676691124
+    !h Members:
+      - !h Length1: !ul 400
+        !h Name: IndexTable
+        !h Alignment: !ul 4
+        !h TypeName: s32
+        !h Offset: !ul 44800
+        !h Size: !ul 4
+      - !h Length1: !ul 400
+        !h Name: Buffer
+        !h Alignment: !ul 8
+        !h TypeName: ::Game::SaveFriendData
+        !h Offset: !ul 0
+        !h Size: !ul 112
+    !h Size: !ul 46400
+  - !h Alignment: !ul 4
+    !h TypeName: !u 742004188
+    !h Members:
+      - !h Length1: !ul 128
+        !h Name: Id
+        !h Alignment: !ul 2
+        !h TypeName: s16
+        !h Offset: !ul 0
+        !h Size: !ul 2
+      - !h Length1: !ul 1
+        !h Name: AddPos
+        !h Alignment: !ul 4
+        !h TypeName: s32
+        !h Offset: !ul 256
+        !h Size: !ul 4
+    !h Size: !ul 260
+  - !h Alignment: !ul 4
+    !h TypeName: ::Game::SavePlayerId
+    !h Members:
+      - !h Length1: !ul 1
+        !h Name: LandId
+        !h Alignment: !ul 4
+        !h TypeName: ::Game::SaveLandId
+        !h Offset: !ul 0
+        !h Size: !ul 28
+      - !h Length1: !ul 1
+        !h Name: BaseId
+        !h Alignment: !ul 4
+        !h TypeName: ::Game::SavePlayerBaseId
+        !h Offset: !ul 28
+        !h Size: !ul 28
+    !h Size: !ul 56
+  - !h Alignment: !ul 8
+    !h TypeName: ::Game::SaveMyDesignPro
+    !h Members:
+      - !h Length1: !ul 1
+        !h Name: Palette
+        !h Alignment: !ul 1
+        !h TypeName: ::Game::SaveMyDesignPalette
+        !h Offset: !ul 120
+        !h Size: !ul 45
+      - !h Length1: !ul 1
+        !h Name: Version
+        !h Alignment: !ul 4
+        !h TypeName: ::Game::SaveMyDesignVersion
+        !h Offset: !ul 4
+        !h Size: !ul 4
+      - !h Length1: !ul 1
+        !h Name: Header
+        !h Alignment: !ul 8
+        !h TypeName: ::Game::SaveMyDesignHeader
+        !h Offset: !ul 8
+        !h Size: !ul 112
+      - !h Length1: !ul 1
+        !h Name: Usage
+        !h Alignment: !ul 1
+        !h TypeName: u8
+        !h Offset: !ul 2213
+        !h Size: !ul 1
+      - !h Length1: !ul 1
+        !h Name: Hash
+        !h Alignment: !ul 4
+        !h TypeName: u32
+        !h Offset: !ul 0
+        !h Size: !ul 4
+      - !h Length1: !ul 1
+        !h Name: !u 3121417401
+        !h Alignment: !ul 2
+        !h TypeName: u16
+        !h Offset: !ul 2214
+        !h Size: !ul 2
+      - !h Length1: !ul 4
+        !h Name: Sheets
+        !h Alignment: !ul 1
+        !h TypeName: !u 3601660749
+        !h Offset: !ul 165
+        !h Size: !ul 512
+    !h Size: !ul 2216
+  - !h Alignment: !ul 4
+    !h TypeName: ::Game::SaveLifeSupport
+    !h Members:
+      - !h Length1: !ul 512
+        !h Name: DateAchievement
+        !h Alignment: !ul 2
+        !h TypeName: ::Game::SaveDate
+        !h Offset: !ul 8856
+        !h Length2: !ul 6
+        !h Size: !ul 4
+      - !h Length1: !ul 512
+        !h Name: FlagsDaily
+        !h Alignment: !ul 2
+        !h TypeName: u16
+        !h Offset: !ul 0
+        !h Size: !ul 2
+      - !h Length1: !ul 512
+        !h Name: BonusDaily
+        !h Alignment: !ul 1
+        !h TypeName: bool
+        !h Offset: !ul 3136
+        !h Size: !ul 1
+      - !h Length1: !ul 512
+        !h Name: CanSelectDaily
+        !h Alignment: !ul 1
+        !h TypeName: bool
+        !h Offset: !ul 2560
+        !h Size: !ul 1
+      - !h Length1: !ul 512
+        !h Name: EntryDaily
+        !h Alignment: !ul 1
+        !h TypeName: bool
+        !h Offset: !ul 1024
+        !h Size: !ul 1
+      - !h Length1: !ul 8
+        !h Name: !u 905537857
+        !h Alignment: !ul 2
+        !h TypeName: u16
+        !h Offset: !ul 3652
+        !h Size: !ul 2
+      - !h Length1: !ul 32
+        !h Name: !u 964438670
+        !h Alignment: !ul 2
+        !h TypeName: u16
+        !h Offset: !ul 3072
+        !h Size: !ul 2
+      - !h Length1: !ul 1
+        !h Name: BonusCount
+        !h Alignment: !ul 4
+        !h TypeName: s32
+        !h Offset: !ul 3648
+        !h Size: !ul 4
+      - !h Length1: !ul 512
+        !h Name: NewAchievement
+        !h Alignment: !ul 1
+        !h TypeName: !u 1153857660
+        !h Offset: !ul 21144
+        !h Size: !ul 1
+      - !h Length1: !ul 1
+        !h Name: ChangedFirstFivePoint
+        !h Alignment: !ul 4
+        !h TypeName: s32
+        !h Offset: !ul 22184
+        !h Size: !ul 4
+      - !h Length1: !ul 512
+        !h Name: CountAchievement
+        !h Alignment: !ul 4
+        !h TypeName: u32
+        !h Offset: !ul 3736
+        !h Size: !ul 4
+      - !h Length1: !ul 512
+        !h Name: ReadDaily
+        !h Alignment: !ul 1
+        !h TypeName: bool
+        !h Offset: !ul 1536
+        !h Size: !ul 1
+      - !h Length1: !ul 512
+        !h Name: BonusVDaily
+        !h Alignment: !ul 1
+        !h TypeName: bool
+        !h Offset: !ul 21672
+        !h Size: !ul 1
+      - !h Length1: !ul 512
+        !h Name: ReadAchievement
+        !h Alignment: !ul 1
+        !h TypeName: bool
+        !h Offset: !ul 5784
+        !h Length2: !ul 6
+        !h Size: !ul 1
+      - !h Length1: !ul 1
+        !h Name: TalkNpcBit
+        !h Alignment: !ul 2
+        !h TypeName: u16
+        !h Offset: !ul 3732
+        !h Size: !ul 2
+      - !h Length1: !ul 512
+        !h Name: RewardDaily
+        !h Alignment: !ul 1
+        !h TypeName: bool
+        !h Offset: !ul 2048
+        !h Size: !ul 1
+      - !h Length1: !ul 32
+        !h Name: !u 3625471941
+        !h Alignment: !ul 2
+        !h TypeName: u16
+        !h Offset: !ul 3668
+        !h Size: !ul 2
+      - !h Length1: !ul 1
+        !h Name: NowPoint
+        !h Alignment: !ul 4
+        !h TypeName: !u 3966101428
+        !h Offset: !ul 21656
+        !h Size: !ul 8
+      - !h Length1: !ul 1
+        !h Name: TotalPoint
+        !h Alignment: !ul 4
+        !h TypeName: !u 3966101428
+        !h Offset: !ul 21664
+        !h Size: !ul 8
+    !h Size: !ul 22188
+  - !h Alignment: !ul 2
+    !h TypeName: !u 874263699
+    !h Members:
+      - !h Length1: !ul 48
+        !h Name: Buffer
+        !h Alignment: !ul 2
+        !h TypeName: char16
+        !h Offset: !ul 0
+        !h Size: !ul 2
+    !h Size: !ul 96
+  - !h Alignment: !ul 4
+    !h TypeName: ::Game::SavePlayerItemBag
+    !h Members:
+      - !h Length1: !ul 20
+        !h Name: !u 2084351539
+        !h Alignment: !ul 1
+        !h TypeName: s8
+        !h Offset: !ul 164
+        !h Size: !ul 1
+      - !h Length1: !ul 1
+        !h Name: ItemHolder
+        !h Alignment: !ul 4
+        !h TypeName: !u 4171078503
+        !h Offset: !ul 0
+        !h Size: !ul 164
+    !h Size: !ul 184
+  - !h Alignment: !ul 4
+    !h TypeName: ::Game::SavePlayerItemChest
+    !h Members:
+      - !h Length1: !ul 1
+        !h Name: ItemHolder
+        !h Alignment: !ul 4
+        !h TypeName: !u 2315700645
+        !h Offset: !ul 0
+        !h Size: !ul 40004
+    !h Size: !ul 40004
+  - !h Alignment: !ul 8
+    !h TypeName: ::Game::SaveMyDesignNormal
+    !h Members:
+      - !h Length1: !ul 1
+        !h Name: Palette
+        !h Alignment: !ul 1
+        !h TypeName: ::Game::SaveMyDesignPalette
+        !h Offset: !ul 120
+        !h Size: !ul 45
+      - !h Length1: !ul 1
+        !h Name: Version
+        !h Alignment: !ul 4
+        !h TypeName: ::Game::SaveMyDesignVersion
+        !h Offset: !ul 4
+        !h Size: !ul 4
+      - !h Length1: !ul 1
+        !h Name: Header
+        !h Alignment: !ul 8
+        !h TypeName: ::Game::SaveMyDesignHeader
+        !h Offset: !ul 8
+        !h Size: !ul 112
+      - !h Length1: !ul 1
+        !h Name: !u 2283708009
+        !h Alignment: !ul 2
+        !h TypeName: u16
+        !h Offset: !ul 678
+        !h Size: !ul 2
+      - !h Length1: !ul 1
+        !h Name: Hash
+        !h Alignment: !ul 4
+        !h TypeName: u32
+        !h Offset: !ul 0
+        !h Size: !ul 4
+      - !h Length1: !ul 1
+        !h Name: !u 3121417401
+        !h Alignment: !ul 1
+        !h TypeName: u8
+        !h Offset: !ul 677
+        !h Size: !ul 1
+      - !h Length1: !ul 1
+        !h Name: Sheets
+        !h Alignment: !ul 1
+        !h TypeName: !u 3601660749
+        !h Offset: !ul 165
+        !h Size: !ul 512
+    !h Size: !ul 680
+  - !h Alignment: !ul 4
+    !h TypeName: ::Game::SaveItemName
+    !h Members:
+      - !h Length1: !ul 1
+        !h Name: AdditionalParam
+        !h Alignment: !ul 1
+        !h TypeName: ::Game::SaveItemAdditionalParam
+        !h Offset: !ul 3
+        !h Size: !ul 1
+      - !h Length1: !ul 1
+        !h Name: FreeParam
+        !h Alignment: !ul 4
+        !h TypeName: ::Game::SaveItemFreeParam
+        !h Offset: !ul 4
+        !h Size: !ul 4
+      - !h Length1: !ul 1
+        !h Name: SystemParam
+        !h Alignment: !ul 1
+        !h TypeName: ::Game::SaveItemSystemParam
+        !h Offset: !ul 2
+        !h Size: !ul 1
+      - !h Length1: !ul 1
+        !h Name: UniqueID
+        !h Alignment: !ul 2
+        !h TypeName: u16
+        !h Offset: !ul 0
+        !h Size: !ul 2
+    !h Size: !ul 8
+  - !h Alignment: !ul 16
+    !h TypeName: ::Game::SaveProfileJPEG
+    !h Members:
+      - !h Length1: !ul 143360
+        !h Name: Buffer
+        !h Alignment: !ul 1
+        !h TypeName: u8
+        !h Offset: !ul 20
+        !h Size: !ul 1
+      - !h Length1: !ul 1
+        !h Name: Size
+        !h Alignment: !ul 4
+        !h TypeName: s32
+        !h Offset: !ul 16
+        !h Size: !ul 4
+      - !h Length1: !ul 1
+        !h Name: !u 3545928273
+        !h Alignment: !ul 16
+        !h TypeName: !u 2069900089
+        !h Offset: !ul 0
+        !h Size: !ul 16
+    !h Size: !ul 143392
+  - !h Alignment: !ul 2
+    !h TypeName: ::Game::SaveWordPlayerName
+    !h Members:
+      - !h Length1: !ul 1
+        !h Name: PlayerName
+        !h Alignment: !ul 2
+        !h TypeName: !u 2697692380
+        !h Offset: !ul 0
+        !h Size: !ul 20
+    !h Size: !ul 20
+  - !h Alignment: !ul 16
+    !h TypeName: ::Game::SavePersonal
+    !h Members:
+      - !h Length1: !ul 1
+        !h Name: Player
+        !h Alignment: !ul 16
+        !h TypeName: ::Game::SavePlayer
+        !h Offset: !ul 272
+        !h Size: !ul 220464
+      - !h Length1: !ul 1
+        !h Name: Version
+        !h Alignment: !ul 4
+        !h TypeName: ::Game::SaveVersion
+        !h Offset: !ul 0
+        !h Size: !ul 256
+      - !h Length1: !ul 8
+        !h Name: !u 1562364676
+        !h Alignment: !ul 1
+        !h TypeName: u8
+        !h Offset: !ul 256
+        !h Size: !ul 1
+      - !h Length1: !ul 1
+        !h Name: PlayerOther
+        !h Alignment: !ul 16
+        !h TypeName: ::Game::SavePlayerOther
+        !h Offset: !ul 220736
+        !h Size: !ul 227456
+    !h Size: !ul 448192
+  - !h Alignment: !ul 8
+    !h TypeName: ::Game::SaveBirthdayMessageList
+    !h Members:
+      - !h Length1: !ul 8
+        !h Name: List
+        !h Alignment: !ul 8
+        !h TypeName: ::Game::SaveBirthdayMessage
+        !h Offset: !ul 0
+        !h Size: !ul 560
+    !h Size: !ul 4480
+  - !h Alignment: !ul 4
+    !h TypeName: ::Game::SavePlayerItemPocket
+    !h Members:
+      - !h Length1: !ul 20
+        !h Name: !u 2084351539
+        !h Alignment: !ul 1
+        !h TypeName: s8
+        !h Offset: !ul 164
+        !h Size: !ul 1
+      - !h Length1: !ul 1
+        !h Name: ItemHolder
+        !h Alignment: !ul 4
+        !h TypeName: !u 2529176622
+        !h Offset: !ul 0
+        !h Size: !ul 164
+    !h Size: !ul 184
+  - !h Alignment: !ul 8
+    !h TypeName: ::Game::SavePlayerLook
+    !h Members:
+      - !h Length1: !ul 1
+        !h Name: DefaultTops
+        !h Alignment: !ul 4
+        !h TypeName: ::Game::SaveItemName
+        !h Offset: !ul 8120
+        !h Size: !ul 8
+      - !h Length1: !ul 1
+        !h Name: DefaultBottoms
+        !h Alignment: !ul 4
+        !h TypeName: ::Game::SaveItemName
+        !h Offset: !ul 8128
+        !h Size: !ul 8
+      - !h Length1: !ul 1
+        !h Name: CharaMake
+        !h Alignment: !ul 8
+        !h TypeName: ::Game::SaveCharaMake
+        !h Offset: !ul 7424
+        !h Size: !ul 696
+      - !h Length1: !ul 1
+        !h Name: !u 4037244816
+        !h Alignment: !ul 8
+        !h TypeName: !u 3496032167
+        !h Offset: !ul 0
+        !h Size: !ul 7424
+    !h Size: !ul 8136
+  - !h Alignment: !ul 4
+    !h TypeName: ::Game::SaveVersion
+    !h Members:
+      - !h Length1: !ul 128
+        !h Name: !u 1562364676
+        !h Alignment: !ul 1
+        !h TypeName: u8
+        !h Offset: !ul 128
+        !h Size: !ul 1
+      - !h Length1: !ul 1
+        !h Name: CurrentVersionData
+        !h Alignment: !ul 4
+        !h TypeName: !u 3942459289
+        !h Offset: !ul 0
+        !h Size: !ul 64
+      - !h Length1: !ul 1
+        !h Name: CreateVersionData
+        !h Alignment: !ul 4
+        !h TypeName: !u 3942459289
+        !h Offset: !ul 64
+        !h Size: !ul 64
+    !h Size: !ul 256
+  - !h Alignment: !ul 2
+    !h TypeName: !u 1366550026
+    !h Members:
+      - !h Length1: !ul 32
+        !h Name: Buffer
+        !h Alignment: !ul 2
+        !h TypeName: char16
+        !h Offset: !ul 0
+        !h Size: !ul 2
+    !h Size: !ul 64
+  - !h Alignment: !ul 2
+    !h TypeName: ::Game::SaveCraftingRecipeCollect
+    !h Members:
+      - !h Length1: !ul 1
+        !h Name: RecipeCollectBit
+        !h Alignment: !ul 1
+        !h TypeName: !u 1948364966
+        !h Offset: !ul 0
+        !h Size: !ul 256
+      - !h Length1: !ul 1
+        !h Name: RecipeNewBit
+        !h Alignment: !ul 1
+        !h TypeName: !u 1948364966
+        !h Offset: !ul 512
+        !h Size: !ul 256
+      - !h Length1: !ul 1
+        !h Name: RecipeFavoriteBit
+        !h Alignment: !ul 1
+        !h TypeName: !u 1948364966
+        !h Offset: !ul 768
+        !h Size: !ul 256
+      - !h Length1: !ul 2048
+        !h Name: RecipeOpenNum
+        !h Alignment: !ul 2
+        !h TypeName: u16
+        !h Offset: !ul 1024
+        !h Size: !ul 2
+      - !h Length1: !ul 1
+        !h Name: RecipeMadeBit
+        !h Alignment: !ul 1
+        !h TypeName: !u 1948364966
+        !h Offset: !ul 256
+        !h Size: !ul 256
+    !h Size: !ul 5120
+  - !h Alignment: !ul 4
+    !h TypeName: ::Game::SaveMyDesignVersion
+    !h Members:
+      - !h Length1: !ul 1
+        !h Name: SaveDataVersion
+        !h Alignment: !ul 4
+        !h TypeName: u32
+        !h Offset: !ul 0
+        !h Size: !ul 4
+    !h Size: !ul 4
+  - !h Alignment: !ul 8
+    !h TypeName: ::Game::SaveItemNameWithMyDesign
+    !h Members:
+      - !h Length1: !ul 1
+        !h Name: ItemName
+        !h Alignment: !ul 4
+        !h TypeName: ::Game::SaveItemName
+        !h Offset: !ul 0
+        !h Size: !ul 8
+      - !h Length1: !ul 1
+        !h Name: MyDesign
+        !h Alignment: !ul 8
+        !h TypeName: ::Game::SaveMyDesignPro
+        !h Offset: !ul 8
+        !h Size: !ul 2216
+    !h Size: !ul 2224
+  - !h Alignment: !ul 4
+    !h TypeName: !u 1459671986
+    !h Members:
+      - !h Length1: !ul 32
+        !h Name: Counter
+        !h Alignment: !ul 4
+        !h TypeName: u32
+        !h Offset: !ul 0
+        !h Size: !ul 4
+    !h Size: !ul 128
+  - !h Alignment: !ul 1
+    !h TypeName: ::Game::SaveSetting
+    !h Members:
+      - !h Length1: !ul 1
+        !h Name: MiniMap
+        !h Alignment: !ul 1
+        !h TypeName: u8
+        !h Offset: !ul 0
+        !h Size: !ul 1
+    !h Size: !ul 1
+  - !h Alignment: !ul 8
+    !h TypeName: ::Game::SaveMail
+    !h Members:
+      - !h Length1: !ul 1
+        !h Name: HandWritingUsed
+        !h Alignment: !ul 1
+        !h TypeName: bool
+        !h Offset: !ul 9280
+        !h Size: !ul 1
+      - !h Length1: !ul 1
+        !h Name: FromNsaId
+        !h Alignment: !ul 8
+        !h TypeName: !u 17472036
+        !h Offset: !ul 39312
+        !h Size: !ul 8
+      - !h Length1: !ul 1
+        !h Name: LanguageCode
+        !h Alignment: !ul 1
+        !h TypeName: ::nn::settings::LanguageCode
+        !h Offset: !ul 39320
+        !h Size: !ul 8
+      - !h Length1: !ul 1
+        !h Name: MailId
+        !h Alignment: !ul 8
+        !h TypeName: ::Game::Net::MailID
+        !h Offset: !ul 39296
+        !h Size: !ul 8
+      - !h Length1: !ul 1
+        !h Name: Digest
+        !h Alignment: !ul 1
+        !h TypeName: !u 335489226
+        !h Offset: !ul 39336
+        !h Size: !ul 20
+      - !h Length1: !ul 16
+        !h Name: !u 1562364676
+        !h Alignment: !ul 1
+        !h TypeName: u8
+        !h Offset: !ul 39356
+        !h Size: !ul 1
+      - !h Length1: !ul 1
+        !h Name: HandWritten
+        !h Alignment: !ul 4
+        !h TypeName: ::Game::SaveHandWritten
+        !h Offset: !ul 9284
+        !h Size: !ul 30008
+      - !h Length1: !ul 1
+        !h Name: UniqueId
+        !h Alignment: !ul 4
+        !h TypeName: u32
+        !h Offset: !ul 39292
+        !h Size: !ul 4
+      - !h Length1: !ul 1
+        !h Name: FromPopId
+        !h Alignment: !ul 8
+        !h TypeName: ::Game::Net::POPID
+        !h Offset: !ul 39304
+        !h Size: !ul 8
+      - !h Length1: !ul 1
+        !h Name: MailText
+        !h Alignment: !ul 4
+        !h TypeName: ::Game::SaveMailText
+        !h Offset: !ul 0
+        !h Size: !ul 9280
+      - !h Length1: !ul 1
+        !h Name: SentAt
+        !h Alignment: !ul 8
+        !h TypeName: ::nn::time::PosixTime
+        !h Offset: !ul 39328
+        !h Size: !ul 8
+    !h Size: !ul 39376
+  - !h Alignment: !ul 4
+    !h TypeName: !u 1615834040
+    !h Members:
+      - !h Length1: !ul 8
+        !h Name: Bits
+        !h Alignment: !ul 4
+        !h TypeName: u32
+        !h Offset: !ul 0
+        !h Size: !ul 4
+    !h Size: !ul 32
+  - !h Alignment: !ul 8
+    !h TypeName: ::Game::SaveNetMailData
+    !h Members:
+      - !h Length1: !ul 1
+        !h Name: MailID
+        !h Alignment: !ul 8
+        !h TypeName: ::Game::Net::MailID
+        !h Offset: !ul 0
+        !h Size: !ul 8
+      - !h Length1: !ul 1
+        !h Name: Status
+        !h Alignment: !ul 4
+        !h TypeName: !u 38059377
+        !h Offset: !ul 8
+        !h Size: !ul 4
+    !h Size: !ul 16
+  - !h Alignment: !ul 4
+    !h TypeName: ::Game::SaveMailText
+    !h Members:
+      - !h Length1: !ul 1
+        !h Name: TextUsed
+        !h Alignment: !ul 1
+        !h TypeName: bool
+        !h Offset: !ul 204
+        !h Size: !ul 1
+      - !h Length1: !ul 1
+        !h Name: TextBody
+        !h Alignment: !ul 2
+        !h TypeName: !u 2277439582
+        !h Offset: !ul 302
+        !h Size: !ul 480
+      - !h Length1: !ul 1
+        !h Name: MelodyId
+        !h Alignment: !ul 2
+        !h TypeName: u16
+        !h Offset: !ul 880
+        !h Size: !ul 2
+      - !h Length1: !ul 1
+        !h Name: TextHeader
+        !h Alignment: !ul 2
+        !h TypeName: !u 2633910462
+        !h Offset: !ul 206
+        !h Size: !ul 96
+      - !h Length1: !ul 1
+        !h Name: Stamp
+        !h Alignment: !ul 1
+        !h TypeName: ::Game::SaveLandStamp
+        !h Offset: !ul 882
+        !h Size: !ul 8195
+      - !h Length1: !ul 1
+        !h Name: CardDesignId
+        !h Alignment: !ul 2
+        !h TypeName: u16
+        !h Offset: !ul 878
+        !h Size: !ul 2
+      - !h Length1: !ul 1
+        !h Name: MailPackage
+        !h Alignment: !ul 4
+        !h TypeName: ::Game::SaveMailPackage
+        !h Offset: !ul 0
+        !h Size: !ul 204
+      - !h Length1: !ul 20
+        !h Name: SealList
+        !h Alignment: !ul 2
+        !h TypeName: !u 3515869983
+        !h Offset: !ul 9078
+        !h Size: !ul 10
+      - !h Length1: !ul 1
+        !h Name: TextFooter
+        !h Alignment: !ul 2
+        !h TypeName: !u 874263699
+        !h Offset: !ul 782
+        !h Size: !ul 96
+    !h Size: !ul 9280
+  - !h Alignment: !ul 4
+    !h TypeName: ::Game::SavePostingReserveCatalog
+    !h Members:
+      - !h Length1: !ul 1
+        !h Name: ToPlayerId
+        !h Alignment: !ul 4
+        !h TypeName: ::Game::SavePlayerId
+        !h Offset: !ul 688
+        !h Size: !ul 56
+      - !h Length1: !ul 1
+        !h Name: ReserveBase
+        !h Alignment: !ul 4
+        !h TypeName: ::Game::SavePostingReserveBase
+        !h Offset: !ul 0
+        !h Size: !ul 688
+    !h Size: !ul 744
+  - !h Alignment: !ul 16
+    !h TypeName: ::Game::SavePlayer
+    !h Members:
+      - !h Length1: !ul 1
+        !h Name: ProfileMain
+        !h Alignment: !ul 16
+        !h TypeName: ::Game::SaveProfileMain
+        !h Offset: !ul 71328
+        !h Size: !ul 144592
+      - !h Length1: !ul 1
+        !h Name: !u 419281215
+        !h Alignment: !ul 1
+        !h TypeName: s8
+        !h Offset: !ul 16
+        !h Size: !ul 1
+      - !h Length1: !ul 1
+        !h Name: GalleryItem
+        !h Alignment: !ul 4
+        !h TypeName: ::Game::SaveItemName
+        !h Offset: !ul 220416
+        !h Size: !ul 8
+      - !h Length1: !ul 1
+        !h Name: GalleryLandId
+        !h Alignment: !ul 4
+        !h TypeName: ::Game::SaveLandId
+        !h Offset: !ul 220424
+        !h Size: !ul 28
+      - !h Length1: !ul 1
+        !h Name: LastPlayDate
+        !h Alignment: !ul 2
+        !h TypeName: ::Game::SaveDate
+        !h Offset: !ul 215924
+        !h Size: !ul 4
+      - !h Length1: !ul 1
+        !h Name: LifeSupport
+        !h Alignment: !ul 4
+        !h TypeName: ::Game::SaveLifeSupport
+        !h Offset: !ul 49120
+        !h Size: !ul 22188
+      - !h Length1: !ul 1
+        !h Name: BirthdayLiveMsgList
+        !h Alignment: !ul 8
+        !h TypeName: ::Game::SaveBirthdayMessageList
+        !h Offset: !ul 215936
+        !h Size: !ul 4480
+      - !h Length1: !ul 1
+        !h Name: LookPack
+        !h Alignment: !ul 8
+        !h TypeName: ::Game::SavePlayerLookPack
+        !h Offset: !ul 24
+        !h Size: !ul 44944
+      - !h Length1: !ul 4
+        !h Name: !u 1562364676
+        !h Alignment: !ul 1
+        !h TypeName: u8
+        !h Offset: !ul 215920
+        !h Size: !ul 1
+      - !h Length1: !ul 1
+        !h Name: NetProfile
+        !h Alignment: !ul 8
+        !h TypeName: ::Game::SaveNetPlayerProfile
+        !h Offset: !ul 71312
+        !h Size: !ul 8
+      - !h Length1: !ul 1
+        !h Name: LastBirthdayYear
+        !h Alignment: !ul 2
+        !h TypeName: s16
+        !h Offset: !ul 215928
+        !h Size: !ul 2
+      - !h Length1: !ul 1
+        !h Name: EventFlag
+        !h Alignment: !ul 2
+        !h TypeName: ::Game::SaveEventFlagPlayer
+        !h Offset: !ul 45024
+        !h Size: !ul 4096
+      - !h Length1: !ul 1
+        !h Name: BirthdayLiveDate
+        !h Alignment: !ul 2
+        !h TypeName: ::Game::SaveDate
+        !h Offset: !ul 215930
+        !h Size: !ul 4
+      - !h Length1: !ul 1
+        !h Name: !u 3545928273
+        !h Alignment: !ul 16
+        !h TypeName: !u 2069900089
+        !h Offset: !ul 0
+        !h Size: !ul 16
+      - !h Length1: !ul 1
+        !h Name: PastDaysFromMade
+        !h Alignment: !ul 2
+        !h TypeName: u16
+        !h Offset: !ul 71310
+        !h Size: !ul 2
+      - !h Length1: !ul 1
+        !h Name: BirthDay
+        !h Alignment: !ul 1
+        !h TypeName: ::Game::SaveDateMD
+        !h Offset: !ul 71308
+        !h Size: !ul 2
+      - !h Length1: !ul 1
+        !h Name: PlayerId
+        !h Alignment: !ul 4
+        !h TypeName: ::Game::SavePlayerId
+        !h Offset: !ul 44968
+        !h Size: !ul 56
+    !h Size: !ul 220464
+  - !h Alignment: !ul 4
+    !h TypeName: ::Game::SaveItemCollectBit
+    !h Members:
+      - !h Length1: !ul 1
+        !h Name: CollectBitFlag
+        !h Alignment: !ul 4
+        !h TypeName: !u 742733032
+        !h Offset: !ul 0
+        !h Size: !ul 1876
+    !h Size: !ul 1876
+  - !h Alignment: !ul 8
+    !h TypeName: ::Game::SavePlayerOutfit
+    !h Members:
+      - !h Length1: !ul 1
+        !h Name: Marinesuit
+        !h Alignment: !ul 4
+        !h TypeName: ::Game::SaveItemName
+        !h Offset: !ul 4496
+        !h Size: !ul 8
+      - !h Length1: !ul 1
+        !h Name: CoordinateOutfit
+        !h Alignment: !ul 8
+        !h TypeName: ::Game::SaveCoordinateOutfit
+        !h Offset: !ul 0
+        !h Size: !ul 4496
+    !h Size: !ul 4504
+  - !h Alignment: !ul 4
+    !h TypeName: ::Game::SaveAmiibo
+    !h Members:
+      - !h Length1: !ul 1
+        !h Name: !u 745328199
+        !h Alignment: !ul 4
+        !h TypeName: ::Game::SaveNormalNpcBitFlag
+        !h Offset: !ul 16
+        !h Size: !ul 140
+      - !h Length1: !ul 1
+        !h Name: FlagOther
+        !h Alignment: !ul 1
+        !h TypeName: !u 1153857660
+        !h Offset: !ul 156
+        !h Size: !ul 1
+      - !h Length1: !ul 1
+        !h Name: !u 3844023031
+        !h Alignment: !ul 4
+        !h TypeName: ::Game::SaveSpecialNpcBitFlag
+        !h Offset: !ul 0
+        !h Size: !ul 16
+    !h Size: !ul 160
+  - !h Alignment: !ul 8
+    !h TypeName: ::Game::SaveFriendList
+    !h Members:
+      - !h Length1: !ul 1
+        !h Name: FriendList
+        !h Alignment: !ul 8
+        !h TypeName: !u 676691124
+        !h Offset: !ul 0
+        !h Size: !ul 46400
+      - !h Length1: !ul 1
+        !h Name: !u 1878016300
+        !h Alignment: !ul 8
+        !h TypeName: ::nn::time::PosixTime
+        !h Offset: !ul 46400
+        !h Size: !ul 8
+    !h Size: !ul 46408
+  - !h Alignment: !ul 1
+    !h TypeName: ::Game::SaveClockTimeList
+    !h Members:
+      - !h Length1: !ul 16
+        !h Name: ClockTimeList
+        !h Alignment: !ul 1
+        !h TypeName: Game::ClockTimeBuffers
+        !h Offset: !ul 0
+        !h Size: !ul 24
+    !h Size: !ul 384
+  - !h Alignment: !ul 4
+    !h TypeName: !u 1978663468
+    !h Members:
+      - !h Length1: !ul 1
+        !h Name: !u 2450089186
+        !h Alignment: !ul 4
+        !h TypeName: ::Game::SaveSpecialNpcBitFlag
+        !h Offset: !ul 0
+        !h Size: !ul 16
+    !h Size: !ul 16
+  - !h Alignment: !ul 8
+    !h TypeName: ::Game::SaveCoordinateList
+    !h Members:
+      - !h Length1: !ul 8
+        !h Name: Coordinate
+        !h Alignment: !ul 8
+        !h TypeName: ::Game::SaveCoordinate
+        !h Offset: !ul 0
+        !h Size: !ul 4600
+    !h Size: !ul 36800
+  - !h Alignment: !ul 4
+    !h TypeName: ::Game::SavePlayerItemBaggage
+    !h Members:
+      - !h Length1: !ul 1
+        !h Name: ItemPocket
+        !h Alignment: !ul 4
+        !h TypeName: ::Game::SavePlayerItemPocket
+        !h Offset: !ul 184
+        !h Size: !ul 184
+      - !h Length1: !ul 1
+        !h Name: ItemBag
+        !h Alignment: !ul 4
+        !h TypeName: ::Game::SavePlayerItemBag
+        !h Offset: !ul 0
+        !h Size: !ul 184
+      - !h Length1: !ul 1
+        !h Name: Wallet
+        !h Alignment: !ul 4
+        !h TypeName: ::Game::SaveMoney
+        !h Offset: !ul 368
+        !h Size: !ul 8
+      - !h Length1: !ul 1
+        !h Name: ExpandBaggage
+        !h Alignment: !ul 1
+        !h TypeName: u8
+        !h Offset: !ul 376
+        !h Size: !ul 1
+    !h Size: !ul 380
+  - !h Alignment: !ul 4
+    !h TypeName: !u 2043697583
+    !h Members:
+      - !h Length1: !ul 1
+        !h Name: Enum
+        !h Alignment: !ul 4
+        !h TypeName: s32
+        !h Offset: !ul 0
+        !h Size: !ul 4
+    !h Size: !ul 4
+  - !h Alignment: !ul 8
+    !h TypeName: ::Game::SaveCoordinate
+    !h Members:
+      - !h Length1: !ul 1
+        !h Name: CoordinateOutfit
+        !h Alignment: !ul 8
+        !h TypeName: ::Game::SaveCoordinateOutfit
+        !h Offset: !ul 0
+        !h Size: !ul 4496
+      - !h Length1: !ul 1
+        !h Name: !u 1995260990
+        !h Alignment: !ul 4
+        !h TypeName: ::Game::SaveItemName
+        !h Offset: !ul 4592
+        !h Size: !ul 8
+      - !h Length1: !ul 1
+        !h Name: CoordinateName
+        !h Alignment: !ul 2
+        !h TypeName: ::Game::SaveWordCoordinateName
+        !h Offset: !ul 4496
+        !h Size: !ul 96
+    !h Size: !ul 4600
+  - !h Alignment: !ul 4
+    !h TypeName: ::Game::SaveMailPackage
+    !h Members:
+      - !h Length1: !ul 1
+        !h Name: ToName
+        !h Alignment: !ul 4
+        !h TypeName: !u 2241158485
+        !h Offset: !ul 96
+        !h Size: !ul 92
+      - !h Length1: !ul 1
+        !h Name: Present
+        !h Alignment: !ul 4
+        !h TypeName: ::Game::SaveItemName
+        !h Offset: !ul 192
+        !h Size: !ul 8
+      - !h Length1: !ul 1
+        !h Name: !u 1538011878
+        !h Alignment: !ul 1
+        !h TypeName: bool
+        !h Offset: !ul 200
+        !h Size: !ul 1
+      - !h Length1: !ul 1
+        !h Name: Status
+        !h Alignment: !ul 1
+        !h TypeName: u8
+        !h Offset: !ul 0
+        !h Size: !ul 1
+      - !h Length1: !ul 1
+        !h Name: Favorite
+        !h Alignment: !ul 1
+        !h TypeName: bool
+        !h Offset: !ul 1
+        !h Size: !ul 1
+      - !h Length1: !ul 1
+        !h Name: FromName
+        !h Alignment: !ul 4
+        !h TypeName: !u 2241158485
+        !h Offset: !ul 4
+        !h Size: !ul 92
+      - !h Length1: !ul 1
+        !h Name: Date
+        !h Alignment: !ul 2
+        !h TypeName: ::Game::SaveDate
+        !h Offset: !ul 188
+        !h Size: !ul 4
+    !h Size: !ul 204
+  - !h Alignment: !ul 16
+    !h TypeName: !u 2069900089
+    !h Members:
+      - !h Length1: !ul 1
+        !h Name: Code
+        !h Alignment: !ul 4
+        !h TypeName: u32
+        !h Offset: !ul 0
+        !h Size: !ul 4
+    !h Size: !ul 16
+  - !h Alignment: !ul 2
+    !h TypeName: ::Game::SaveDate
+    !h Members:
+      - !h Length1: !ul 1
+        !h Name: Year
+        !h Alignment: !ul 2
+        !h TypeName: u16
+        !h Offset: !ul 0
+        !h Size: !ul 2
+      - !h Length1: !ul 1
+        !h Name: Month
+        !h Alignment: !ul 1
+        !h TypeName: u8
+        !h Offset: !ul 2
+        !h Size: !ul 1
+      - !h Length1: !ul 1
+        !h Name: Day
+        !h Alignment: !ul 1
+        !h TypeName: u8
+        !h Offset: !ul 3
+        !h Size: !ul 1
+    !h Size: !ul 4
+  - !h Alignment: !ul 8
+    !h TypeName: ::Game::SaveCharaMake
+    !h Members:
+      - !h Length1: !ul 1
+        !h Name: FacePaintMyDesignNormal
+        !h Alignment: !ul 8
+        !h TypeName: ::Game::SaveMyDesignNormal
+        !h Offset: !ul 16
+        !h Size: !ul 680
+      - !h Length1: !ul 1
+        !h Name: CharaMakeSetting
+        !h Alignment: !ul 2
+        !h TypeName: Game::CharaMakeSetting
+        !h Offset: !ul 0
+        !h Size: !ul 12
+    !h Size: !ul 696
+  - !h Alignment: !ul 4
+    !h TypeName: !u 2241158485
+    !h Members:
+      - !h Length1: !ul 1
+        !h Name: Type
+        !h Alignment: !ul 1
+        !h TypeName: u8
+        !h Offset: !ul 88
+        !h Size: !ul 1
+      - !h Length1: !ul 1
+        !h Name: NameInfo
+        !h Alignment: !ul 4
+        !h TypeName: !u 3770044025
+        !h Offset: !ul 0
+        !h Size: !ul 88
+    !h Size: !ul 92
+  - !h Alignment: !ul 8
+    !h TypeName: ::Game::SavePlayerLookPack
+    !h Members:
+      - !h Length1: !ul 1
+        !h Name: ChangeStickInfo
+        !h Alignment: !ul 1
+        !h TypeName: ::Game::SaveChangeStickInfo
+        !h Offset: !ul 44936
+        !h Size: !ul 2
+      - !h Length1: !ul 1
+        !h Name: Look
+        !h Alignment: !ul 8
+        !h TypeName: ::Game::SavePlayerLook
+        !h Offset: !ul 0
+        !h Size: !ul 8136
+      - !h Length1: !ul 1
+        !h Name: CoordinateList
+        !h Alignment: !ul 8
+        !h TypeName: ::Game::SaveCoordinateList
+        !h Offset: !ul 8136
+        !h Size: !ul 36800
+    !h Size: !ul 44944
+  - !h Alignment: !ul 4
+    !h TypeName: !u 2274724820
+    !h Members:
+      - !h Length1: !ul 1
+        !h Name: !u 1281327397
+        !h Alignment: !ul 4
+        !h TypeName: u32
+        !h Offset: !ul 160
+        !h Size: !ul 4
+      - !h Length1: !ul 20
+        !h Name: Item
+        !h Alignment: !ul 4
+        !h TypeName: ::Game::SaveItemName
+        !h Offset: !ul 0
+        !h Size: !ul 8
+    !h Size: !ul 164
+  - !h Alignment: !ul 2
+    !h TypeName: !u 2277439582
+    !h Members:
+      - !h Length1: !ul 240
+        !h Name: Buffer
+        !h Alignment: !ul 2
+        !h TypeName: char16
+        !h Offset: !ul 0
+        !h Size: !ul 2
+    !h Size: !ul 480
+  - !h Alignment: !ul 4
+    !h TypeName: !u 2286307968
+    !h Members:
+      - !h Length1: !ul 128
+        !h Name: Counter
+        !h Alignment: !ul 4
+        !h TypeName: u32
+        !h Offset: !ul 0
+        !h Size: !ul 4
+    !h Size: !ul 512
+  - !h Alignment: !ul 4
+    !h TypeName: !u 2298017200
+    !h Members:
+      - !h Length1: !ul 1
+        !h Name: Enum
+        !h Alignment: !ul 4
+        !h TypeName: s32
+        !h Offset: !ul 0
+        !h Size: !ul 4
+    !h Size: !ul 4
+  - !h Alignment: !ul 4
+    !h TypeName: ::Game::SaveHashList
+    !h Members:
+      - !h Length1: !ul 16
+        !h Name: HashList
+        !h Alignment: !ul 4
+        !h TypeName: u32
+        !h Offset: !ul 0
+        !h Size: !ul 4
+    !h Size: !ul 64
+  - !h Alignment: !ul 4
+    !h TypeName: !u 2315700645
+    !h Members:
+      - !h Length1: !ul 1
+        !h Name: !u 1281327397
+        !h Alignment: !ul 4
+        !h TypeName: u32
+        !h Offset: !ul 40000
+        !h Size: !ul 4
+      - !h Length1: !ul 5000
+        !h Name: Item
+        !h Alignment: !ul 4
+        !h TypeName: ::Game::SaveItemName
+        !h Offset: !ul 0
+        !h Size: !ul 8
+    !h Size: !ul 40004
+  - !h Alignment: !ul 2
+    !h TypeName: !u 2326029664
+    !h Members:
+      - !h Length1: !ul 10
+        !h Name: Buffer
+        !h Alignment: !ul 2
+        !h TypeName: char16
+        !h Offset: !ul 0
+        !h Size: !ul 2
+    !h Size: !ul 20
+  - !h Alignment: !ul 4
+    !h TypeName: ::Game::SaveSpecialNpcBitFlag
+    !h Members:
+      - !h Length1: !ul 4
+        !h Name: SpecialNpcBitFlag
+        !h Alignment: !ul 4
+        !h TypeName: u32
+        !h Offset: !ul 0
+        !h Size: !ul 4
+    !h Size: !ul 16
+  - !h Alignment: !ul 4
+    !h TypeName: ::Game::SavePlayerItemMaterial
+    !h Members:
+      - !h Length1: !ul 32
+        !h Name: Count
+        !h Alignment: !ul 2
+        !h TypeName: u16
+        !h Offset: !ul 256
+        !h Size: !ul 2
+      - !h Length1: !ul 32
+        !h Name: Item
+        !h Alignment: !ul 4
+        !h TypeName: ::Game::SaveItemName
+        !h Offset: !ul 0
+        !h Size: !ul 8
+    !h Size: !ul 320
+  - !h Alignment: !ul 1
+    !h TypeName: ::Game::SaveChangeStickInfo
+    !h Members:
+      - !h Length1: !ul 1
+        !h Name: IsUseCoordinate
+        !h Alignment: !ul 1
+        !h TypeName: bool
+        !h Offset: !ul 1
+        !h Size: !ul 1
+      - !h Length1: !ul 1
+        !h Name: LinkCoordinateIndex
+        !h Alignment: !ul 1
+        !h TypeName: s8
+        !h Offset: !ul 0
+        !h Size: !ul 1
+    !h Size: !ul 2
+  - !h Alignment: !ul 8
+    !h TypeName: ::Game::SaveCoordinateOutfit
+    !h Members:
+      - !h Length1: !ul 1
+        !h Name: Bag
+        !h Alignment: !ul 4
+        !h TypeName: ::Game::SaveItemName
+        !h Offset: !ul 4488
+        !h Size: !ul 8
+      - !h Length1: !ul 1
+        !h Name: Bottoms
+        !h Alignment: !ul 4
+        !h TypeName: ::Game::SaveItemName
+        !h Offset: !ul 4464
+        !h Size: !ul 8
+      - !h Length1: !ul 1
+        !h Name: Socks
+        !h Alignment: !ul 4
+        !h TypeName: ::Game::SaveItemName
+        !h Offset: !ul 4472
+        !h Size: !ul 8
+      - !h Length1: !ul 1
+        !h Name: AcceEye
+        !h Alignment: !ul 4
+        !h TypeName: ::Game::SaveItemName
+        !h Offset: !ul 2224
+        !h Size: !ul 8
+      - !h Length1: !ul 1
+        !h Name: Cap
+        !h Alignment: !ul 8
+        !h TypeName: ::Game::SaveItemNameWithMyDesign
+        !h Offset: !ul 0
+        !h Size: !ul 2224
+      - !h Length1: !ul 1
+        !h Name: AcceMouth
+        !h Alignment: !ul 4
+        !h TypeName: ::Game::SaveItemName
+        !h Offset: !ul 2232
+        !h Size: !ul 8
+      - !h Length1: !ul 1
+        !h Name: Shoes
+        !h Alignment: !ul 4
+        !h TypeName: ::Game::SaveItemName
+        !h Offset: !ul 4480
+        !h Size: !ul 8
+      - !h Length1: !ul 1
+        !h Name: Tops
+        !h Alignment: !ul 8
+        !h TypeName: ::Game::SaveItemNameWithMyDesign
+        !h Offset: !ul 2240
+        !h Size: !ul 2224
+    !h Size: !ul 4496
+  - !h Alignment: !ul 4
+    !h TypeName: !u 2522753979
+    !h Members:
+      - !h Length1: !ul 64
+        !h Name: Counter
+        !h Alignment: !ul 4
+        !h TypeName: u32
+        !h Offset: !ul 0
+        !h Size: !ul 4
+    !h Size: !ul 256
+  - !h Alignment: !ul 4
+    !h TypeName: !u 2529176622
+    !h Members:
+      - !h Length1: !ul 1
+        !h Name: !u 1281327397
+        !h Alignment: !ul 4
+        !h TypeName: u32
+        !h Offset: !ul 160
+        !h Size: !ul 4
+      - !h Length1: !ul 20
+        !h Name: Item
+        !h Alignment: !ul 4
+        !h TypeName: ::Game::SaveItemName
+        !h Offset: !ul 0
+        !h Size: !ul 8
+    !h Size: !ul 164
+  - !h Alignment: !ul 4
+    !h TypeName: ::Game::SavePostingReserveTomorrowNpc
+    !h Members:
+      - !h Length1: !ul 1
+        !h Name: ReserveBase
+        !h Alignment: !ul 4
+        !h TypeName: ::Game::SavePostingReserveBase
+        !h Offset: !ul 0
+        !h Size: !ul 688
+      - !h Length1: !ul 1
+        !h Name: FromNpcId
+        !h Alignment: !ul 1
+        !h TypeName: Game::NpcNormalID
+        !h Offset: !ul 688
+        !h Size: !ul 3
+    !h Size: !ul 692
+  - !h Alignment: !ul 2
+    !h TypeName: !u 2633910462
+    !h Members:
+      - !h Length1: !ul 48
+        !h Name: Buffer
+        !h Alignment: !ul 2
+        !h TypeName: char16
+        !h Offset: !ul 0
+        !h Size: !ul 2
+    !h Size: !ul 96
+  - !h Alignment: !ul 4
+    !h TypeName: !u 2644849203
+    !h Members:
+      - !h Length1: !ul 16
+        !h Name: Counter
+        !h Alignment: !ul 4
+        !h TypeName: u32
+        !h Offset: !ul 0
+        !h Size: !ul 4
+    !h Size: !ul 64
+  - !h Alignment: !ul 2
+    !h TypeName: !u 2697692380
+    !h Members:
+      - !h Length1: !ul 10
+        !h Name: Buffer
+        !h Alignment: !ul 2
+        !h TypeName: char16
+        !h Offset: !ul 0
+        !h Size: !ul 2
+    !h Size: !ul 20
+  - !h Alignment: !ul 2
+    !h TypeName: ::Game::SaveFirstCollection
+    !h Members:
+      - !h Length1: !ul 1
+        !h Name: UniqueID
+        !h Alignment: !ul 2
+        !h TypeName: u16
+        !h Offset: !ul 0
+        !h Size: !ul 2
+    !h Size: !ul 2
+  - !h Alignment: !ul 1
+    !h TypeName: ::Game::SaveItemSystemParam
+    !h Members:
+      - !h Length1: !ul 1
+        !h Name: Type
+        !h Alignment: !ul 1
+        !h TypeName: !u 3176172728
+        !h Offset: !ul 0
+        !h Size: !ul 1
+    !h Size: !ul 1
+  - !h Alignment: !ul 4
+    !h TypeName: !u 2892768039
+    !h Members:
+      - !h Length1: !ul 1
+        !h Name: !u 2450089186
+        !h Alignment: !ul 4
+        !h TypeName: ::Game::SaveNormalNpcBitFlag
+        !h Offset: !ul 0
+        !h Size: !ul 140
+    !h Size: !ul 140
+  - !h Alignment: !ul 4
+    !h TypeName: ::Game::SavePostingReserveTomorrowSystem
+    !h Members:
+      - !h Length1: !ul 1
+        !h Name: ReserveBase
+        !h Alignment: !ul 4
+        !h TypeName: ::Game::SavePostingReserveBase
+        !h Offset: !ul 0
+        !h Size: !ul 688
+      - !h Length1: !ul 1
+        !h Name: FromSystemId
+        !h Alignment: !ul 1
+        !h TypeName: u8
+        !h Offset: !ul 688
+        !h Size: !ul 1
+    !h Size: !ul 692
+  - !h Alignment: !ul 4
+    !h TypeName: !u 2976068050
+    !h Members:
+      - !h Length1: !ul 256
+        !h Name: Id
+        !h Alignment: !ul 2
+        !h TypeName: s16
+        !h Offset: !ul 0
+        !h Size: !ul 2
+      - !h Length1: !ul 1
+        !h Name: AddPos
+        !h Alignment: !ul 4
+        !h TypeName: s32
+        !h Offset: !ul 512
+        !h Size: !ul 4
+    !h Size: !ul 516
+  - !h Alignment: !ul 2
+    !h TypeName: ::Game::SaveEventFlagPlayerVisit
+    !h Members:
+      - !h Length1: !ul 1
+        !h Name: Flags
+        !h Alignment: !ul 2
+        !h TypeName: !u 3707138836
+        !h Offset: !ul 0
+        !h Size: !ul 256
+    !h Size: !ul 256
+  - !h Alignment: !ul 8
+    !h TypeName: ::Game::SavePersonalPlayReportInfo
+    !h Members:
+      - !h Length1: !ul 1024
+        !h Name: !u 374375875
+        !h Alignment: !ul 1
+        !h TypeName: u8
+        !h Offset: !ul 2320
+        !h Size: !ul 1
+      - !h Length1: !ul 1
+        !h Name: PlayReportCounter
+        !h Alignment: !ul 4
+        !h TypeName: !u 3956672011
+        !h Offset: !ul 16
+        !h Size: !ul 1024
+      - !h Length1: !ul 1
+        !h Name: !u 665194583
+        !h Alignment: !ul 4
+        !h TypeName: !u 309534016
+        !h Offset: !ul 1296
+        !h Size: !ul 320
+      - !h Length1: !ul 1
+        !h Name: !u 890912575
+        !h Alignment: !ul 4
+        !h TypeName: !u 2522753979
+        !h Offset: !ul 1040
+        !h Size: !ul 256
+      - !h Length1: !ul 1
+        !h Name: !u 1143514938
+        !h Alignment: !ul 4
+        !h TypeName: !u 2286307968
+        !h Offset: !ul 1680
+        !h Size: !ul 512
+      - !h Length1: !ul 1
+        !h Name: ChatCounter
+        !h Alignment: !ul 4
+        !h TypeName: !u 1459671986
+        !h Offset: !ul 2192
+        !h Size: !ul 128
+      - !h Length1: !ul 1
+        !h Name: TotalPlayTime
+        !h Alignment: !ul 8
+        !h TypeName: s64
+        !h Offset: !ul 8
+        !h Size: !ul 8
+      - !h Length1: !ul 1
+        !h Name: MainPlayerTotalPlayTime
+        !h Alignment: !ul 8
+        !h TypeName: s64
+        !h Offset: !ul 0
+        !h Size: !ul 8
+      - !h Length1: !ul 1
+        !h Name: !u 3776961096
+        !h Alignment: !ul 4
+        !h TypeName: !u 2644849203
+        !h Offset: !ul 1616
+        !h Size: !ul 64
+    !h Size: !ul 3344
+  - !h Alignment: !ul 8
+    !h TypeName: ::Game::SaveNetPlayerID
+    !h Members:
+      - !h Length1: !ul 1
+        !h Name: Credential
+        !h Alignment: !ul 8
+        !h TypeName: !u 658720958
+        !h Offset: !ul 0
+        !h Size: !ul 80
+      - !h Length1: !ul 1
+        !h Name: NSAID
+        !h Alignment: !ul 8
+        !h TypeName: !u 17472036
+        !h Offset: !ul 80
+        !h Size: !ul 8
+    !h Size: !ul 88
+  - !h Alignment: !ul 2
+    !h TypeName: ::Game::SaveTime
+    !h Members:
+      - !h Length1: !ul 1
+        !h Name: Calendar
+        !h Alignment: !ul 2
+        !h TypeName: Calendar
+        !h Offset: !ul 0
+        !h Size: !ul 8
+    !h Size: !ul 8
+  - !h Alignment: !ul 1
+    !h TypeName: ::Game::SaveLandStamp
+    !h Members:
+      - !h Length1: !ul 1
+        !h Name: FrameID
+        !h Alignment: !ul 1
+        !h TypeName: u8
+        !h Offset: !ul 0
+        !h Size: !ul 1
+      - !h Length1: !ul 8192
+        !h Name: Image
+        !h Alignment: !ul 1
+        !h TypeName: u8
+        !h Offset: !ul 3
+        !h Size: !ul 1
+      - !h Length1: !ul 1
+        !h Name: ImageColorID
+        !h Alignment: !ul 1
+        !h TypeName: u8
+        !h Offset: !ul 2
+        !h Size: !ul 1
+      - !h Length1: !ul 1
+        !h Name: !u 3447989344
+        !h Alignment: !ul 1
+        !h TypeName: u8
+        !h Offset: !ul 1
+        !h Size: !ul 1
+    !h Size: !ul 8195
+  - !h Alignment: !ul 2
+    !h TypeName: ::Game::SavePlayerHandleName
+    !h Members:
+      - !h Length1: !ul 1
+        !h Name: NounLevel
+        !h Alignment: !ul 1
+        !h TypeName: u8
+        !h Offset: !ul 6
+        !h Size: !ul 1
+      - !h Length1: !ul 1
+        !h Name: ModifierLevel
+        !h Alignment: !ul 1
+        !h TypeName: u8
+        !h Offset: !ul 2
+        !h Size: !ul 1
+      - !h Length1: !ul 1
+        !h Name: ModifierId
+        !h Alignment: !ul 2
+        !h TypeName: u16
+        !h Offset: !ul 0
+        !h Size: !ul 2
+      - !h Length1: !ul 1
+        !h Name: NounId
+        !h Alignment: !ul 2
+        !h TypeName: u16
+        !h Offset: !ul 4
+        !h Size: !ul 2
+      - !h Length1: !ul 1
+        !h Name: NounGenderType
+        !h Alignment: !ul 1
+        !h TypeName: u8
+        !h Offset: !ul 7
+        !h Size: !ul 1
+      - !h Length1: !ul 1
+        !h Name: NounGenderTypePrev
+        !h Alignment: !ul 1
+        !h TypeName: u8
+        !h Offset: !ul 8
+        !h Size: !ul 1
+    !h Size: !ul 10
+  - !h Alignment: !ul 4
+    !h TypeName: ::Game::SavePostingReserveBase
+    !h Members:
+      - !h Length1: !ul 1
+        !h Name: Footer
+        !h Alignment: !ul 2
+        !h TypeName: !u 874263699
+        !h Offset: !ul 592
+        !h Size: !ul 96
+      - !h Length1: !ul 1
+        !h Name: TextUsed
+        !h Alignment: !ul 1
+        !h TypeName: bool
+        !h Offset: !ul 1
+        !h Size: !ul 1
+      - !h Length1: !ul 1
+        !h Name: Present
+        !h Alignment: !ul 4
+        !h TypeName: ::Game::SaveItemName
+        !h Offset: !ul 4
+        !h Size: !ul 8
+      - !h Length1: !ul 1
+        !h Name: Header
+        !h Alignment: !ul 2
+        !h TypeName: !u 2633910462
+        !h Offset: !ul 16
+        !h Size: !ul 96
+      - !h Length1: !ul 1
+        !h Name: Body
+        !h Alignment: !ul 2
+        !h TypeName: !u 2277439582
+        !h Offset: !ul 112
+        !h Size: !ul 480
+      - !h Length1: !ul 1
+        !h Name: CardDesignId
+        !h Alignment: !ul 2
+        !h TypeName: u16
+        !h Offset: !ul 2
+        !h Size: !ul 2
+      - !h Length1: !ul 1
+        !h Name: Reserved
+        !h Alignment: !ul 1
+        !h TypeName: bool
+        !h Offset: !ul 0
+        !h Size: !ul 1
+      - !h Length1: !ul 1
+        !h Name: Date
+        !h Alignment: !ul 2
+        !h TypeName: ::Game::SaveDate
+        !h Offset: !ul 12
+        !h Size: !ul 4
+    !h Size: !ul 688
+  - !h Alignment: !ul 2
+    !h TypeName: !u 3396239957
+    !h Members:
+      - !h Length1: !ul 128
+        !h Name: ValueArray
+        !h Alignment: !ul 2
+        !h TypeName: u16
+        !h Offset: !ul 0
+        !h Size: !ul 2
+    !h Size: !ul 256
+  - !h Alignment: !ul 4
+    !h TypeName: ::Game::SaveHandWritten
+    !h Members:
+      - !h Length1: !ul 4
+        !h Name: Palette
+        !h Alignment: !ul 1
+        !h TypeName: u8
+        !h Offset: !ul 30000
+        !h Size: !ul 1
+      - !h Length1: !ul 30000
+        !h Name: Image
+        !h Alignment: !ul 1
+        !h TypeName: u8
+        !h Offset: !ul 0
+        !h Size: !ul 1
+      - !h Length1: !ul 1
+        !h Name: VerticesNum
+        !h Alignment: !ul 4
+        !h TypeName: u32
+        !h Offset: !ul 30004
+        !h Size: !ul 4
+    !h Size: !ul 30008
+  - !h Alignment: !ul 4
+    !h TypeName: ::Game::SavePostingReserveInScene
+    !h Members:
+      - !h Length1: !ul 1
+        !h Name: ReserveBase
+        !h Alignment: !ul 4
+        !h TypeName: ::Game::SavePostingReserveBase
+        !h Offset: !ul 0
+        !h Size: !ul 688
+      - !h Length1: !ul 1
+        !h Name: FromNpcId
+        !h Alignment: !ul 1
+        !h TypeName: Game::NpcNormalID
+        !h Offset: !ul 690
+        !h Size: !ul 3
+      - !h Length1: !ul 1
+        !h Name: ReserveType
+        !h Alignment: !ul 1
+        !h TypeName: u8
+        !h Offset: !ul 688
+        !h Size: !ul 1
+      - !h Length1: !ul 1
+        !h Name: FromType
+        !h Alignment: !ul 1
+        !h TypeName: u8
+        !h Offset: !ul 689
+        !h Size: !ul 1
+      - !h Length1: !ul 1
+        !h Name: FromSystemId
+        !h Alignment: !ul 1
+        !h TypeName: u8
+        !h Offset: !ul 693
+        !h Size: !ul 1
+    !h Size: !ul 696
+  - !h Alignment: !ul 16
+    !h TypeName: ::Game::SaveProfileMain
+    !h Members:
+      - !h Length1: !ul 10
+        !h Name: NpcNormalIDArray
+        !h Alignment: !ul 1
+        !h TypeName: Game::NpcNormalID
+        !h Offset: !ul 143534
+        !h Size: !ul 3
+      - !h Length1: !ul 1
+        !h Name: LanguageCode
+        !h Alignment: !ul 1
+        !h TypeName: ::nn::settings::LanguageCode
+        !h Offset: !ul 143624
+        !h Size: !ul 8
+      - !h Length1: !ul 1
+        !h Name: HandleName
+        !h Alignment: !ul 2
+        !h TypeName: ::Game::SavePlayerHandleName
+        !h Offset: !ul 143460
+        !h Size: !ul 10
+      - !h Length1: !ul 1
+        !h Name: IsMakeVillagePlayer
+        !h Alignment: !ul 1
+        !h TypeName: bool
+        !h Offset: !ul 143568
+        !h Size: !ul 1
+      - !h Length1: !ul 952
+        !h Name: !u 1562364676
+        !h Alignment: !ul 1
+        !h TypeName: u8
+        !h Offset: !ul 143632
+        !h Size: !ul 1
+      - !h Length1: !ul 1
+        !h Name: JPEG
+        !h Alignment: !ul 16
+        !h TypeName: ::Game::SaveProfileJPEG
+        !h Offset: !ul 0
+        !h Size: !ul 143392
+      - !h Length1: !ul 1
+        !h Name: PlayerProfileReportInfo
+        !h Alignment: !ul 8
+        !h TypeName: ::Game::Net::PlayerProfileReportInfo
+        !h Offset: !ul 143576
+        !h Size: !ul 40
+      - !h Length1: !ul 1
+        !h Name: Comment
+        !h Alignment: !ul 2
+        !h TypeName: !u 1366550026
+        !h Offset: !ul 143470
+        !h Size: !ul 64
+      - !h Length1: !ul 1
+        !h Name: TimeStamp
+        !h Alignment: !ul 2
+        !h TypeName: ::Game::SaveDate
+        !h Offset: !ul 143564
+        !h Size: !ul 4
+      - !h Length1: !ul 1
+        !h Name: DesignerID
+        !h Alignment: !ul 8
+        !h TypeName: ::Game::Net::DesignerID
+        !h Offset: !ul 143616
+        !h Size: !ul 8
+      - !h Length1: !ul 1
+        !h Name: BirthDay
+        !h Alignment: !ul 1
+        !h TypeName: ::Game::SaveDateMD
+        !h Offset: !ul 143448
+        !h Size: !ul 2
+      - !h Length1: !ul 1
+        !h Name: SpecialityFruit
+        !h Alignment: !ul 4
+        !h TypeName: ::Game::SaveItemName
+        !h Offset: !ul 143452
+        !h Size: !ul 8
+      - !h Length1: !ul 1
+        !h Name: PlayerId
+        !h Alignment: !ul 4
+        !h TypeName: ::Game::SavePlayerId
+        !h Offset: !ul 143392
+        !h Size: !ul 56
+    !h Size: !ul 144592
+  - !h Alignment: !ul 8
+    !h TypeName: !u 3496032167
+    !h Members:
+      - !h Length1: !ul 1
+        !h Name: SmartPhoneMyDesign
+        !h Alignment: !ul 8
+        !h TypeName: ::Game::SaveMyDesignNormal
+        !h Offset: !ul 6744
+        !h Size: !ul 680
+      - !h Length1: !ul 1
+        !h Name: ToolPack
+        !h Alignment: !ul 8
+        !h TypeName: ::Game::SavePlayerTool
+        !h Offset: !ul 4504
+        !h Size: !ul 2232
+      - !h Length1: !ul 1
+        !h Name: SmartPhone
+        !h Alignment: !ul 4
+        !h TypeName: ::Game::SaveItemName
+        !h Offset: !ul 6736
+        !h Size: !ul 8
+      - !h Length1: !ul 1
+        !h Name: Outfit
+        !h Alignment: !ul 8
+        !h TypeName: ::Game::SavePlayerOutfit
+        !h Offset: !ul 0
+        !h Size: !ul 4504
+    !h Size: !ul 7424
+  - !h Alignment: !ul 2
+    !h TypeName: !u 3515869983
+    !h Members:
+      - !h Length1: !ul 1
+        !h Name: PosX
+        !h Alignment: !ul 2
+        !h TypeName: s16
+        !h Offset: !ul 2
+        !h Size: !ul 2
+      - !h Length1: !ul 1
+        !h Name: PosY
+        !h Alignment: !ul 2
+        !h TypeName: s16
+        !h Offset: !ul 4
+        !h Size: !ul 2
+      - !h Length1: !ul 1
+        !h Name: Scale
+        !h Alignment: !ul 1
+        !h TypeName: u8
+        !h Offset: !ul 8
+        !h Size: !ul 1
+      - !h Length1: !ul 1
+        !h Name: Used
+        !h Alignment: !ul 1
+        !h TypeName: bool
+        !h Offset: !ul 9
+        !h Size: !ul 1
+      - !h Length1: !ul 1
+        !h Name: Id
+        !h Alignment: !ul 2
+        !h TypeName: u16
+        !h Offset: !ul 0
+        !h Size: !ul 2
+      - !h Length1: !ul 1
+        !h Name: Angle
+        !h Alignment: !ul 2
+        !h TypeName: u16
+        !h Offset: !ul 6
+        !h Size: !ul 2
+    !h Size: !ul 10
+  - !h Alignment: !ul 1
+    !h TypeName: ::Game::SaveDateMD
+    !h Members:
+      - !h Length1: !ul 1
+        !h Name: Month
+        !h Alignment: !ul 1
+        !h TypeName: u8
+        !h Offset: !ul 0
+        !h Size: !ul 1
+      - !h Length1: !ul 1
+        !h Name: Day
+        !h Alignment: !ul 1
+        !h TypeName: u8
+        !h Offset: !ul 1
+        !h Size: !ul 1
+    !h Size: !ul 2
+  - !h Alignment: !ul 4
+    !h TypeName: ::Game::SaveMoney
+    !h Members:
+      - !h Length1: !ul 1
+        !h Name: Wallet
+        !h Alignment: !ul 4
+        !h TypeName: !u 3966101428
+        !h Offset: !ul 0
+        !h Size: !ul 8
+    !h Size: !ul 8
+  - !h Alignment: !ul 2
+    !h TypeName: ::Game::SaveInsectCollection
+    !h Members:
+      - !h Length1: !ul 100
+        !h Name: Insect
+        !h Alignment: !ul 2
+        !h TypeName: ::Game::SaveFirstCollection
+        !h Offset: !ul 0
+        !h Size: !ul 2
+      - !h Length1: !ul 1
+        !h Name: NewInsectFlag
+        !h Alignment: !ul 1
+        !h TypeName: !u 1249632718
+        !h Offset: !ul 200
+        !h Size: !ul 13
+      - !h Length1: !ul 1
+        !h Name: Count
+        !h Alignment: !ul 1
+        !h TypeName: u8
+        !h Offset: !ul 213
+        !h Size: !ul 1
+    !h Size: !ul 214
+  - !h Alignment: !ul 4
+    !h TypeName: ::Game::SaveItemRemakeCollectBit
+    !h Members:
+      - !h Length1: !ul 1
+        !h Name: CollectBitFlag
+        !h Alignment: !ul 4
+        !h TypeName: !u 4181839016
+        !h Offset: !ul 0
+        !h Size: !ul 2000
+    !h Size: !ul 2000
+  - !h Alignment: !ul 4
+    !h TypeName: ::Game::SavePlayerItemInsectFishBox
+    !h Members:
+      - !h Length1: !ul 1
+        !h Name: ItemHolderMyVillage
+        !h Alignment: !ul 4
+        !h TypeName: !u 2274724820
+        !h Offset: !ul 0
+        !h Size: !ul 164
+      - !h Length1: !ul 1
+        !h Name: ItemHolderOtherVillage
+        !h Alignment: !ul 4
+        !h TypeName: !u 2274724820
+        !h Offset: !ul 164
+        !h Size: !ul 164
+    !h Size: !ul 328
+  - !h Alignment: !ul 1
+    !h TypeName: ::Game::SaveItemAdditionalParam
+    !h Members:
+      - !h Length1: !ul 1
+        !h Name: Type
+        !h Alignment: !ul 1
+        !h TypeName: !u 682075667
+        !h Offset: !ul 0
+        !h Size: !ul 1
+    !h Size: !ul 1
+  - !h Alignment: !ul 2
+    !h TypeName: !u 3707138836
+    !h Members:
+      - !h Length1: !ul 128
+        !h Name: ValueArray
+        !h Alignment: !ul 2
+        !h TypeName: u16
+        !h Offset: !ul 0
+        !h Size: !ul 2
+    !h Size: !ul 256
+  - !h Alignment: !ul 1
+    !h TypeName: ::Game::SavePlayerManpu
+    !h Members:
+      - !h Length1: !ul 64
+        !h Name: ManpuBit
+        !h Alignment: !ul 1
+        !h TypeName: u8
+        !h Offset: !ul 0
+        !h Size: !ul 1
+      - !h Length1: !ul 8
+        !h Name: UIList
+        !h Alignment: !ul 1
+        !h TypeName: u8
+        !h Offset: !ul 64
+        !h Size: !ul 1
+      - !h Length1: !ul 64
+        !h Name: NewFlag
+        !h Alignment: !ul 1
+        !h TypeName: bool
+        !h Offset: !ul 72
+        !h Size: !ul 1
+    !h Size: !ul 136
+  - !h Alignment: !ul 8
+    !h TypeName: ::Game::SaveNetPlayerProfile
+    !h Members:
+      - !h Length1: !ul 1
+        !h Name: DesignerID
+        !h Alignment: !ul 8
+        !h TypeName: ::Game::Net::DesignerID
+        !h Offset: !ul 0
+        !h Size: !ul 8
+    !h Size: !ul 8
+  - !h Alignment: !ul 2
+    !h TypeName: ::Game::SaveFishCollection
+    !h Members:
+      - !h Length1: !ul 100
+        !h Name: Fish
+        !h Alignment: !ul 2
+        !h TypeName: ::Game::SaveFirstCollection
+        !h Offset: !ul 0
+        !h Size: !ul 2
+      - !h Length1: !ul 1
+        !h Name: NewFishFlag
+        !h Alignment: !ul 1
+        !h TypeName: !u 2624541397
+        !h Offset: !ul 200
+        !h Size: !ul 13
+      - !h Length1: !ul 1
+        !h Name: Count
+        !h Alignment: !ul 1
+        !h TypeName: u8
+        !h Offset: !ul 213
+        !h Size: !ul 1
+    !h Size: !ul 214
+  - !h Alignment: !ul 4
+    !h TypeName: ::Game::SaveLandId
+    !h Members:
+      - !h Length1: !ul 1
+        !h Name: Name
+        !h Alignment: !ul 2
+        !h TypeName: ::Game::SaveWordTownName
+        !h Offset: !ul 4
+        !h Size: !ul 20
+      - !h Length1: !ul 1
+        !h Name: IslandRubyType
+        !h Alignment: !ul 1
+        !h TypeName: u8
+        !h Offset: !ul 24
+        !h Size: !ul 1
+      - !h Length1: !ul 1
+        !h Name: Id
+        !h Alignment: !ul 4
+        !h TypeName: u32
+        !h Offset: !ul 0
+        !h Size: !ul 4
+    !h Size: !ul 28
+  - !h Alignment: !ul 4
+    !h TypeName: !u 3942459289
+    !h Members:
+      - !h Length1: !ul 1
+        !h Name: SaveHeaderVersion
+        !h Alignment: !ul 4
+        !h TypeName: u32
+        !h Offset: !ul 8
+        !h Size: !ul 4
+      - !h Length1: !ul 48
+        !h Name: !u 1562364676
+        !h Alignment: !ul 1
+        !h TypeName: u8
+        !h Offset: !ul 16
+        !h Size: !ul 1
+      - !h Length1: !ul 1
+        !h Name: !u 2241061670
+        !h Alignment: !ul 2
+        !h TypeName: u16
+        !h Offset: !ul 12
+        !h Size: !ul 2
+      - !h Length1: !ul 1
+        !h Name: RomReleaseVersion
+        !h Alignment: !ul 2
+        !h TypeName: u16
+        !h Offset: !ul 14
+        !h Size: !ul 2
+      - !h Length1: !ul 1
+        !h Name: !u 3502493520
+        !h Alignment: !ul 4
+        !h TypeName: u32
+        !h Offset: !ul 4
+        !h Size: !ul 4
+      - !h Length1: !ul 1
+        !h Name: !u 3850856410
+        !h Alignment: !ul 4
+        !h TypeName: u32
+        !h Offset: !ul 0
+        !h Size: !ul 4
+    !h Size: !ul 64
+  - !h Alignment: !ul 2
+    !h TypeName: !u 3952342437
+    !h Members:
+      - !h Length1: !ul 2048
+        !h Name: ValueArray
+        !h Alignment: !ul 2
+        !h TypeName: u16
+        !h Offset: !ul 0
+        !h Size: !ul 2
+    !h Size: !ul 4096
+  - !h Alignment: !ul 4
+    !h TypeName: !u 3956672011
+    !h Members:
+      - !h Length1: !ul 256
+        !h Name: Counter
+        !h Alignment: !ul 4
+        !h TypeName: u32
+        !h Offset: !ul 0
+        !h Size: !ul 4
+    !h Size: !ul 1024
+  - !h Alignment: !ul 4
+    !h TypeName: !u 3966101428
+    !h Members:
+      - !h Length1: !ul 1
+        !h Name: !u 1910413618
+        !h Alignment: !ul 4
+        !h TypeName: u32
+        !h Offset: !ul 0
+        !h Size: !ul 4
+      - !h Length1: !ul 1
+        !h Name: !u 2044029452
+        !h Alignment: !ul 2
+        !h TypeName: u16
+        !h Offset: !ul 4
+        !h Size: !ul 2
+      - !h Length1: !ul 1
+        !h Name: !u 3316948862
+        !h Alignment: !ul 1
+        !h TypeName: u8
+        !h Offset: !ul 7
+        !h Size: !ul 1
+      - !h Length1: !ul 1
+        !h Name: !u 3599853758
+        !h Alignment: !ul 1
+        !h TypeName: u8
+        !h Offset: !ul 6
+        !h Size: !ul 1
+    !h Size: !ul 8
+  - !h Alignment: !ul 4
+    !h TypeName: !u 3982378886
+    !h Members:
+      - !h Length1: !ul 1
+        !h Name: Enum
+        !h Alignment: !ul 4
+        !h TypeName: s32
+        !h Offset: !ul 0
+        !h Size: !ul 4
+    !h Size: !ul 4
+  - !h Alignment: !ul 2
+    !h TypeName: ::Game::SaveEventFlagPlayerTemp
+    !h Members:
+      - !h Length1: !ul 1
+        !h Name: Flags
+        !h Alignment: !ul 2
+        !h TypeName: !u 3396239957
+        !h Offset: !ul 0
+        !h Size: !ul 256
+    !h Size: !ul 256
+  - !h Alignment: !ul 1
+    !h TypeName: ::Game::SaveRemakeCommonPattern
+    !h Members:
+      - !h Length1: !ul 1
+        !h Name: Unlocks
+        !h Alignment: !ul 1
+        !h TypeName: !u 2596742643
+        !h Offset: !ul 0
+        !h Size: !ul 16
+    !h Size: !ul 16
+  - !h Alignment: !ul 8
+    !h TypeName: ::Game::SaveMailUserInfo
+    !h Members:
+      - !h Length1: !ul 1
+        !h Name: !u 725130095
+        !h Alignment: !ul 4
+        !h TypeName: !u 3982378886
+        !h Offset: !ul 96
+        !h Size: !ul 4
+      - !h Length1: !ul 1
+        !h Name: FutureMail
+        !h Alignment: !ul 8
+        !h TypeName: ::Game::SaveMail
+        !h Offset: !ul 39488
+        !h Size: !ul 39376
+      - !h Length1: !ul 1
+        !h Name: FutureMailDate
+        !h Alignment: !ul 2
+        !h TypeName: ::Game::SaveDate
+        !h Offset: !ul 78864
+        !h Size: !ul 4
+      - !h Length1: !ul 1
+        !h Name: TemporaryMailToPopId
+        !h Alignment: !ul 8
+        !h TypeName: ::Game::Net::POPID
+        !h Offset: !ul 39480
+        !h Size: !ul 8
+      - !h Length1: !ul 1
+        !h Name: !u 3962180449
+        !h Alignment: !ul 2
+        !h TypeName: !u 874263699
+        !h Offset: !ul 0
+        !h Size: !ul 96
+      - !h Length1: !ul 1
+        !h Name: TemporaryMail
+        !h Alignment: !ul 8
+        !h TypeName: ::Game::SaveMail
+        !h Offset: !ul 104
+        !h Size: !ul 39376
+    !h Size: !ul 78872
+  - !h Alignment: !ul 8
+    !h TypeName: ::Game::SaveBirthdayMessage
+    !h Members:
+      - !h Length1: !ul 1
+        !h Name: MailSend
+        !h Alignment: !ul 1
+        !h TypeName: bool
+        !h Offset: !ul 2
+        !h Size: !ul 1
+      - !h Length1: !ul 1
+        !h Name: FromNsaId
+        !h Alignment: !ul 8
+        !h TypeName: !u 17472036
+        !h Offset: !ul 552
+        !h Size: !ul 8
+      - !h Length1: !ul 1
+        !h Name: Body
+        !h Alignment: !ul 2
+        !h TypeName: !u 2277439582
+        !h Offset: !ul 4
+        !h Size: !ul 480
+      - !h Length1: !ul 1
+        !h Name: Displayed
+        !h Alignment: !ul 1
+        !h TypeName: bool
+        !h Offset: !ul 1
+        !h Size: !ul 1
+      - !h Length1: !ul 1
+        !h Name: Used
+        !h Alignment: !ul 1
+        !h TypeName: bool
+        !h Offset: !ul 0
+        !h Size: !ul 1
+      - !h Length1: !ul 1
+        !h Name: FromPlayerId
+        !h Alignment: !ul 4
+        !h TypeName: ::Game::SavePlayerId
+        !h Offset: !ul 484
+        !h Size: !ul 56
+      - !h Length1: !ul 1
+        !h Name: FromPopId
+        !h Alignment: !ul 8
+        !h TypeName: ::Game::Net::POPID
+        !h Offset: !ul 544
+        !h Size: !ul 8
+    !h Size: !ul 560
+  - !h Alignment: !ul 8
+    !h TypeName: ::Game::SaveNetMailBox
+    !h Members:
+      - !h Length1: !ul 1
+        !h Name: ActivateTime
+        !h Alignment: !ul 8
+        !h TypeName: ::nn::time::SteadyClockTimePoint
+        !h Offset: !ul 1600
+        !h Size: !ul 24
+      - !h Length1: !ul 100
+        !h Name: DeleteList
+        !h Alignment: !ul 8
+        !h TypeName: ::Game::SaveNetMailData
+        !h Offset: !ul 0
+        !h Size: !ul 16
+      - !h Length1: !ul 1
+        !h Name: OfficialMailCountTotal
+        !h Alignment: !ul 4
+        !h TypeName: u32
+        !h Offset: !ul 1624
+        !h Size: !ul 4
+      - !h Length1: !ul 1
+        !h Name: BgReceiveCount
+        !h Alignment: !ul 1
+        !h TypeName: u8
+        !h Offset: !ul 1629
+        !h Size: !ul 1
+      - !h Length1: !ul 1
+        !h Name: OfficialMailCountToday
+        !h Alignment: !ul 1
+        !h TypeName: u8
+        !h Offset: !ul 1628
+        !h Size: !ul 1
+    !h Size: !ul 1632
+  - !h Alignment: !ul 4
+    !h TypeName: ::Game::SaveAudioRegister
+    !h Members:
+      - !h Length1: !ul 1
+        !h Name: RegisterBitList
+        !h Alignment: !ul 4
+        !h TypeName: !u 1615834040
+        !h Offset: !ul 0
+        !h Size: !ul 32
+    !h Size: !ul 32
+  - !h Alignment: !ul 8
+    !h TypeName: ::Game::SavePlayerVisitorNpc
+    !h Members:
+      - !h Length1: !ul 1
+        !h Name: HgcOutfit
+        !h Alignment: !ul 4
+        !h TypeName: !u 3582630021
+        !h Offset: !ul 0
+        !h Size: !ul 72
+      - !h Length1: !ul 1
+        !h Name: !u 616838281
+        !h Alignment: !ul 4
+        !h TypeName: ::Game::SaveItemName
+        !h Offset: !ul 124
+        !h Size: !ul 8
+      - !h Length1: !ul 1
+        !h Name: !u 1188163440
+        !h Alignment: !ul 4
+        !h TypeName: ::Game::SaveItemName
+        !h Offset: !ul 116
+        !h Size: !ul 8
+      - !h Length1: !ul 1
+        !h Name: CodeRecipeUser
+        !h Alignment: !ul 4
+        !h TypeName: ::Game::SaveItemName
+        !h Offset: !ul 108
+        !h Size: !ul 8
+      - !h Length1: !ul 1
+        !h Name: HgcRewardItem
+        !h Alignment: !ul 4
+        !h TypeName: ::Game::SaveItemName
+        !h Offset: !ul 100
+        !h Size: !ul 8
+      - !h Length1: !ul 1
+        !h Name: HgcSampleItem
+        !h Alignment: !ul 4
+        !h TypeName: ::Game::SaveItemName
+        !h Offset: !ul 92
+        !h Size: !ul 8
+      - !h Length1: !ul 1
+        !h Name: HgcFashionThemeBit
+        !h Alignment: !ul 8
+        !h TypeName: !u 942629998
+        !h Offset: !ul 72
+        !h Size: !ul 8
+      - !h Length1: !ul 1
+        !h Name: GulRewardItem
+        !h Alignment: !ul 4
+        !h TypeName: ::Game::SaveItemName
+        !h Offset: !ul 84
+        !h Size: !ul 8
+      - !h Length1: !ul 1
+        !h Name: HgcTodayFashionTheme
+        !h Alignment: !ul 4
+        !h TypeName: s32
+        !h Offset: !ul 80
+        !h Size: !ul 4
+    !h Size: !ul 136
+  - !h Alignment: !ul 4
+    !h TypeName: !u 4171078503
+    !h Members:
+      - !h Length1: !ul 1
+        !h Name: !u 1281327397
+        !h Alignment: !ul 4
+        !h TypeName: u32
+        !h Offset: !ul 160
+        !h Size: !ul 4
+      - !h Length1: !ul 20
+        !h Name: Item
+        !h Alignment: !ul 4
+        !h TypeName: ::Game::SaveItemName
+        !h Offset: !ul 0
+        !h Size: !ul 8
+    !h Size: !ul 164
